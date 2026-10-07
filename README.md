@@ -73,3 +73,5 @@ Value series and David Friedman conversation distinct from Immortal Combat.
 Block Digest co-hosting spanned many episodes; a linked example does not describe
 the extent of that role. The first YouTube upload is the Hungarian
 "Ketogén diéta motiváció" (1 September 2013), a ten-day personal diet experiment.
+This is a standalone video, not a podcast. Keep it on the work page and outside
+the homepage podcast section.

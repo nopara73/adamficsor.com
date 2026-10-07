@@ -130,7 +130,7 @@ for item in DATA['selected_hosted_episodes']:
     episodes.append(entry(link(item['url'], item['guest']),
                           f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item.get("description", item["title"]))}'))
 podcast_body = '''    <section aria-labelledby="podcast">
-      <h2 id="podcast">Podcasts and videos</h2>
+      <h2 id="podcast">Podcasts and conversations</h2>
       <div class="section-content">
         <p>I host Immortal Combat, a podcast about longevity. Since 2024, I’ve been talking with researchers, physicians, founders, and people working to extend healthy life.</p>
         <p>Start with my conversation with <a href="https://www.youtube.com/watch?v=GUQ9sumtkJk">Annie Nosh</a>. Other conversations include <a href="https://www.youtube.com/watch?v=IcFuB0bxRsI">Matt Kaeberlein</a> and <a href="https://www.youtube.com/watch?v=b3D1k1-w9K4">Dave Pascoe</a>.</p>
@@ -167,7 +167,6 @@ early_rows = [entry(link(item['url'], item['title']),
                    f'<span class="record-meta">Published {human_date(item["date"])} · {escape(item["language"])}</span><br>' +
                    escape(item['description']), element_id=item['id'])
               for item in DATA['early_videos']]
-podcast_body += '<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
 
 def writing(item):
     description = escape(item.get('description', ''))
@@ -199,12 +198,13 @@ for section in WORK['sections']:
         body += '<p class="section-content">' + link(section['after']['url'], section['after']['label']) + '</p>'
     work_sections.append(f'<section aria-labelledby="{section["id"]}"><h2 id="{section["id"]}">{escape(section["title"])}</h2>{body}</section>')
 work_body = '\n'.join(work_sections)
+work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
 
 pages = {
     'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
     'talks.html': ('Talks', 'Public talks, panels, and demonstrations by Ádám Ficsór, with recordings and slides.', talk_body),
     'interviews.html': ('Interviews', 'Guest interviews with Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
-    'podcast.html': ('Podcasts and videos', 'Podcasts and videos by Ádám Ficsór: Immortal Combat, Pursuit of Value, Bitcoin privacy conversations, Block Digest, and early personal experiments.', podcast_body),
+    'podcast.html': ('Podcasts and conversations', 'Podcasts and conversations with Ádám Ficsór: Immortal Combat, Pursuit of Value, Bitcoin privacy conversations, and Block Digest.', podcast_body),
     'writing.html': ('Writing', 'Writing by Ádám Ficsór on Bitcoin privacy, longevity, games, and his past software work.', writing_body),
 }
 for filename, args in pages.items():
