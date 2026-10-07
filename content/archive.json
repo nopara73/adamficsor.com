@@ -825,19 +825,19 @@
   ],
   "other_conversations": [
     {
-      "date": "2026-04-11",
-      "guest": "Dave Pascoe — Being a Hacker Before Hacking Was Invented",
-      "title": "Being a Hacker Before Hacking was Invented | Dave Pascoe",
-      "description": "From punch cards and early networks to automation and AI.",
-      "url": "https://www.youtube.com/watch?v=1GlbGJuKMgo",
-      "role": "Host"
-    },
-    {
       "date": "2026-05-07",
       "guest": "Matteo Cassese — Agentic Fever",
       "title": "This AI Obsession Is Destroying Developer Identity × Matteo Cassese",
       "description": "AI agents, burnout, context switching, and changing work.",
       "url": "https://www.youtube.com/watch?v=Id0DCBsBiis",
+      "role": "Host"
+    },
+    {
+      "date": "2026-04-11",
+      "guest": "Dave Pascoe — Being a Hacker Before Hacking Was Invented",
+      "title": "Being a Hacker Before Hacking was Invented | Dave Pascoe",
+      "description": "From punch cards and early networks to automation and AI.",
+      "url": "https://www.youtube.com/watch?v=1GlbGJuKMgo",
       "role": "Host"
     },
     {
@@ -847,6 +847,24 @@
       "description": "Encryption, anonymous payments, reputation, and the future of privacy.",
       "url": "https://www.youtube.com/watch?v=19pgIIRUvvs",
       "role": "Host"
+    },
+    {
+      "date": "2018-03-01",
+      "guest": "Chris Belcher — JoinMarket and light-client privacy",
+      "title": "Chris Belcher - Open-source Microsoft, JoinMarket, Light Client Privacy",
+      "description": "A conversation about open-source software, JoinMarket, and light-client privacy.",
+      "url": "https://www.youtube.com/watch?v=uvYBwmF2u2k",
+      "role": "Host",
+      "duration_seconds": 1931
+    },
+    {
+      "date": "2018-02-25",
+      "guest": "waxwing — Bulletproofs, Monero, and Mimblewimble",
+      "title": "Bulletproofs, Monero, Mimblewimble - waxwing enlightens nopara73's",
+      "description": "A discussion of zero-knowledge proofs, Bulletproofs, Monero, and Mimblewimble.",
+      "url": "https://www.youtube.com/watch?v=mGBRXRdbrsY",
+      "role": "Host",
+      "duration_seconds": 1720
     }
   ],
   "cohosted_podcasts": [
@@ -854,9 +872,25 @@
       "date": "2019-04-17",
       "guest": "Block Digest",
       "title": "Block Digest #172 - Public Kangaroo Court",
-      "description": "I co-hosted this Bitcoin news and technology podcast. Episode #172 credits me alongside Shinobius, Janine, and Rick.",
-      "url": "https://www.youtube.com/watch?v=1pcKQIXPbec",
-      "role": "Co-host"
+      "description": "I co-hosted this Bitcoin news and technology podcast.",
+      "url": "https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg",
+      "role": "Co-host",
+      "example_recording": "https://www.youtube.com/watch?v=1pcKQIXPbec",
+      "date_basis": "Publication of the example recording, not the duration of co-hosting."
+    }
+  ],
+  "early_videos": [
+    {
+      "id": "ketogenic-diet",
+      "date": "2013-09-01",
+      "title": "Ketogén diéta motiváció",
+      "english_title": "Ketogenic diet motivation",
+      "description": "My first YouTube video, documenting a ten-day ketogenic-diet experiment.",
+      "language": "Hungarian",
+      "url": "https://www.youtube.com/watch?v=iTZ6RodBzVM",
+      "role": "Creator",
+      "duration_seconds": 121,
+      "inspected": "The user identified this as their first YouTube video. It is the oldest entry in the complete public uploads catalog. Checked the original player metadata, expanded description, publication date, and video page. The description reports a ten-day experiment; no weight-loss outcome is presented as a verified measurement."
     }
   ]
 }

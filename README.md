@@ -70,3 +70,6 @@ Specific Training out of the portfolio. Credit Block Digest podcast co-hosting;
 do not infer a substantive role from its experimental Medium publication.
 Annie Nosh is the first podcast recommendation. Keep the earlier Pursuit of
 Value series and David Friedman conversation distinct from Immortal Combat.
+Block Digest co-hosting spanned many episodes; a linked example does not describe
+the extent of that role. The first YouTube upload is the Hungarian
+"Ketogén diéta motiváció" (1 September 2013), a ten-day personal diet experiment.

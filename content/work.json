@@ -10,7 +10,7 @@
     "method": "Triaged the original repositories; read substantive documents, selected implementation files, author histories, release records, papers, original essays, and publisher metadata for the included work. Stars informed triage but did not establish completion or contribution.",
     "limits": "This is a curated public-work audit, not a claim to have read every file in all 214 repositories or to have found every article and appearance. Medium archive requests were unavailable; individual public articles were verified. Commit histories capped at 100 were not treated as complete contribution counts.",
     "official_channel_uploads_catalogued": 633,
-    "video_method": "Read the complete public uploads catalog through normal public playlist continuation, six official podcast playlists, and individual player metadata, descriptions and chapters for the selected full recordings. Did not watch or transcribe every upload; clips were not counted as full interviews."
+    "video_method": "Read the complete public uploads catalog through normal public playlist continuation, six official podcast playlists, and individual player metadata, descriptions and chapters for the selected full recordings. Checked the oldest upload directly, including its Hungarian title, expanded description, and publication date. Did not watch or transcribe every upload; clips were not counted as full interviews."
   },
   "sections": [
     {
@@ -437,7 +437,7 @@
           "description": "I co-hosted this Bitcoin news and technology podcast.",
           "links": [
             {
-              "label": "Episode #172, 17 April 2019",
+              "label": "Example episode (2019)",
               "url": "https://www.youtube.com/watch?v=1pcKQIXPbec"
             }
           ],

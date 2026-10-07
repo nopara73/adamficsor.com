@@ -121,7 +121,7 @@ talk_body = '''    <section aria-labelledby="talks">
 
 interview_body = '''    <section aria-labelledby="interviews">
       <h2 id="interviews">Interviews</h2>
-      <p class="section-content">Conversations where I was the guest. For conversations I host, see <a href="podcast.html">Immortal Combat</a>.</p>
+      <p class="section-content">Conversations where I was the guest. For <a href="podcast.html">podcasts and conversations I host</a>, see the podcast archive.</p>
     </section>
 ''' + grouped(DATA['guest_interviews'], interview)
 
@@ -130,7 +130,7 @@ for item in DATA['selected_hosted_episodes']:
     episodes.append(entry(link(item['url'], item['guest']),
                           f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item.get("description", item["title"]))}'))
 podcast_body = '''    <section aria-labelledby="podcast">
-      <h2 id="podcast">Podcasts and conversations</h2>
+      <h2 id="podcast">Podcasts and videos</h2>
       <div class="section-content">
         <p>I host Immortal Combat, a podcast about longevity. Since 2024, I’ve been talking with researchers, physicians, founders, and people working to extend healthy life.</p>
         <p>Start with my conversation with <a href="https://www.youtube.com/watch?v=GUQ9sumtkJk">Annie Nosh</a>. Other conversations include <a href="https://www.youtube.com/watch?v=IcFuB0bxRsI">Matt Kaeberlein</a> and <a href="https://www.youtube.com/watch?v=b3D1k1-w9K4">Dave Pascoe</a>.</p>
@@ -159,9 +159,15 @@ other_rows = [entry(link(item['url'], item['guest']),
               for item in DATA['other_conversations']]
 podcast_body += '<section aria-labelledby="other-conversations"><h2 id="other-conversations">Other conversations</h2>' + entries(other_rows) + '</section>'
 block_rows = [entry(link(item['url'], item['guest']), escape(item['description']),
-                    link('https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg', 'Block Digest channel'))
+                    link(item['example_recording'], 'Example episode'))
               for item in DATA['cohosted_podcasts']]
 podcast_body += '<section aria-labelledby="block-digest"><h2 id="block-digest">Block Digest</h2>' + entries(block_rows) + '</section>'
+
+early_rows = [entry(link(item['url'], item['title']),
+                   f'<span class="record-meta">Published {human_date(item["date"])} · {escape(item["language"])}</span><br>' +
+                   escape(item['description']), element_id=item['id'])
+              for item in DATA['early_videos']]
+podcast_body += '<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
 
 def writing(item):
     description = escape(item.get('description', ''))
@@ -198,7 +204,7 @@ pages = {
     'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
     'talks.html': ('Talks', 'Public talks, panels, and demonstrations by Ádám Ficsór, with recordings and slides.', talk_body),
     'interviews.html': ('Interviews', 'Guest interviews with Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
-    'podcast.html': ('Podcasts and conversations', 'Podcasts and conversations with Ádám Ficsór: Immortal Combat, Pursuit of Value, David Friedman, and Block Digest.', podcast_body),
+    'podcast.html': ('Podcasts and videos', 'Podcasts and videos by Ádám Ficsór: Immortal Combat, Pursuit of Value, Bitcoin privacy conversations, Block Digest, and early personal experiments.', podcast_body),
     'writing.html': ('Writing', 'Writing by Ádám Ficsór on Bitcoin privacy, longevity, games, and his past software work.', writing_body),
 }
 for filename, args in pages.items():
