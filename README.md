@@ -57,8 +57,9 @@ the Advancing Bitcoin excerpt label and do not invent missing slides or dates.
 The fuller work page links the evidence for each contribution.
 
 Keep Longevity World Cup and Immortal Combat prominent as current work. The
-introduction ends with “Thanks for coming to my TED talk.” Forbes recognition
-is the Hungary 2020 list. WabiSabi's preprint and journal article are one work.
+introduction explains what each project is for a reader encountering it for
+the first time. Forbes recognition is the Hungary 2020 list. WabiSabi's
+preprint and journal article are one work.
 TumbleBit and ShareLock acknowledgments do not imply paper co-authorship.
 P2EP followed group discussion; BIP78 is Nicolas Dorier's proposal. Do not
 present the biological-age clock experiments as validated clinical results.
