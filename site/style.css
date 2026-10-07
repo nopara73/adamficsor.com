@@ -1,0 +1,33 @@
+:root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 1.48; color: #111; background: #fff; }
+* { box-sizing: border-box; }
+body { max-width: 48rem; margin: 1.5rem auto 4rem; padding: 0 1.25rem; }
+a { color: #0000b8; text-decoration: underline; text-underline-offset: 0.1em; }
+a:visited { color: #551a8b; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid #0000b8; outline-offset: 4px; }
+header { border-bottom: 1px solid #bdbdbd; padding-bottom: 1.7rem; margin-bottom: 0.65rem; }
+h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 1.3rem; }
+nav { line-height: 1.8; }
+nav span { padding: 0 0.12rem; }
+h2 { font-size: 1rem; line-height: 1.4; margin: 0 0 1rem; text-decoration: underline; text-underline-offset: 0.12em; }
+section + section { margin-top: 1.65rem; }
+p { margin: 0 0 1.05rem; }
+.section-content, .entries, .writing-list { margin-left: 2.15rem; }
+.entries { margin-top: 0; margin-bottom: 0; }
+.entries > div { margin: 0 0 1.15rem; }
+dt { font-weight: 600; }
+dd { margin: 0.1rem 0 0; }
+.writing-list { padding: 0; list-style: none; }
+.writing-list li { margin-bottom: 0.7rem; }
+.writing-archive { margin-top: 1.5rem; }
+time { color: #555; font-size: 0.92rem; }
+.skip-link { position: absolute; top: -5rem; left: 1rem; background: #fff; padding: 0.4rem 0.6rem; }
+.skip-link:focus { top: 0.4rem; }
+@media (max-width: 540px) {
+  :root { font-size: 16px; }
+  body { margin-top: 1.25rem; padding: 0 1rem; }
+  .section-content, .entries, .writing-list { margin-left: 0; }
+  header { padding-bottom: 1.2rem; margin-bottom: 1rem; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.8rem; }
+  a { overflow-wrap: anywhere; }
+}
