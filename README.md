@@ -20,6 +20,8 @@ sites such as `/NomadicMethod/` retain their existing URLs and browser storage.
 
 The two alternative domains, `nopara73.com` and `ficsoradam.com`, redirect to
 `adamficsor.com`. Cloudflare handles DNS and those redirects on the Free plan.
+The apex uses GitHub Pages directly with HTTPS enforced. Cloudflare redirects
+`www.adamficsor.com` to the apex, preserving the path and query string.
 
 ## Content references
 
