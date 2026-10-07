@@ -1,0 +1,582 @@
+{
+  "talks": [
+    {
+      "id": "RY-QQOjycgI",
+      "date": "2017-09-10",
+      "date_basis": "Live event",
+      "title": "Breaking Bitcoin, Paris — Roadmap to Anonymous Bitcoin / ZeroLink",
+      "recording": "https://www.youtube.com/watch?v=RY-QQOjycgI",
+      "slides": null,
+      "display_note": "Conference stream."
+    },
+    {
+      "id": "wjDUJeo4Nu8",
+      "date": "2017-11-21",
+      "date_basis": "Upload, UTC",
+      "title": "Trustless Bitcoin Mixing With ZeroLink",
+      "recording": "https://www.youtube.com/watch?v=wjDUJeo4Nu8",
+      "slides": null,
+      "display_note": "Demonstration."
+    },
+    {
+      "id": "XORDEX-RrAI",
+      "date": "2018-07-03",
+      "date_basis": "Live event",
+      "title": "Building on Bitcoin, Lisbon — Anonymous Bitcoin",
+      "recording": "https://www.youtube.com/watch?v=XORDEX-RrAI",
+      "slides": null,
+      "display_note": "Conference stream. A transcript is also available.",
+      "evidence": [
+        {
+          "label": "Transcript",
+          "url": "https://diyhpl.us/wiki/transcripts/building-on-bitcoin/2018/anonymous-bitcoin/"
+        }
+      ]
+    },
+    {
+      "id": "YSMI4Vmg6JE",
+      "date": "2018-07-19",
+      "date_basis": "Upload, UTC",
+      "title": "Wasabi Demo",
+      "recording": "https://www.youtube.com/watch?v=YSMI4Vmg6JE",
+      "slides": null,
+      "display_note": "Demonstration."
+    },
+    {
+      "id": "l_zsv9ABY2k",
+      "date": "2019-01-17",
+      "date_basis": "Upload, UTC",
+      "title": "Bitcoin Wednesday — When Bitcoin Takes Over The World…",
+      "recording": "https://www.youtube.com/watch?v=l_zsv9ABY2k",
+      "slides": null,
+      "display_note": "Privacy talk and wallet demonstration."
+    },
+    {
+      "id": "PhFF7XSrzlo",
+      "date": "2019-04",
+      "date_basis": "Event month; upload 2019-05-07 UTC",
+      "title": "Understanding Bitcoin, Malta — Wasabi Wallet demo",
+      "recording": "https://www.youtube.com/watch?v=PhFF7XSrzlo",
+      "slides": null,
+      "display_note": "Recording published 7 May 2019."
+    },
+    {
+      "id": "Zhyy_Ajabfs",
+      "date": "2019-06-14–15",
+      "date_basis": "Event range",
+      "title": "UNCHAIN, Berlin — The Current State & Future of Bitcoin Privacy",
+      "recording": "https://www.youtube.com/watch?v=Zhyy_Ajabfs",
+      "slides": null,
+      "display_note": "Recording published 15 July 2019.",
+      "date_label": "14–15 June 2019 (conference)"
+    },
+    {
+      "id": "btcpay-day-riga",
+      "date": "2019-09-16",
+      "date_basis": "Event",
+      "title": "BTCPay Day, Riga — NBitcoin, BTCPay, Wasabi Wallet",
+      "recording": null,
+      "slides": null,
+      "display_note": "",
+      "evidence": [
+        {
+          "label": "Organizer’s account",
+          "url": "https://blog.btcpayserver.org/btcpay-day-riga-2019-recap/"
+        },
+        {
+          "label": "Programme",
+          "url": "https://blog.btcpayserver.org/btcpay-day-2019/"
+        }
+      ]
+    },
+    {
+      "id": "GkxQRX9DRfI",
+      "date": "2019-10",
+      "date_basis": "Event month; upload 2019-12-28 UTC",
+      "title": "Transylvania Crypto Conference — Wasabi Wallet",
+      "recording": "https://www.youtube.com/watch?v=GkxQRX9DRfI",
+      "slides": null,
+      "display_note": "Recording published 28 December 2019."
+    },
+    {
+      "id": "EtRWqdJJEwA",
+      "date": "2020",
+      "date_basis": "Conference year; upload 2020-05-19 UTC",
+      "title": "Advancing Bitcoin — Coinjoins: past, present, and future",
+      "recording": "https://www.youtube.com/watch?v=EtRWqdJJEwA",
+      "slides": null,
+      "display_note": "3:48 excerpt, published 19 May 2020.",
+      "excerpt": true
+    },
+    {
+      "id": "2nhyAYCGi88",
+      "date": "2021",
+      "date_basis": "Conference year; upload 2021-12-03 UTC",
+      "title": "Understanding Bitcoin, Dubai — NGU Tech",
+      "recording": "https://www.youtube.com/watch?v=2nhyAYCGi88",
+      "slides": null,
+      "display_note": "Recording published 3 December 2021."
+    },
+    {
+      "id": "adopting-bitcoin-2021",
+      "date": "2021",
+      "date_basis": "Conference year",
+      "title": "Adopting Bitcoin, San Salvador — Lightning Privacy Panel",
+      "recording": null,
+      "slides": null,
+      "display_note": "Panel with Peter Todd, Bastien Teinturier, and Openoms, hosted by Stephan Livera.",
+      "evidence": [
+        {
+          "label": "Conference programme",
+          "url": "https://sv21.adoptingbitcoin.org/speaker/AdamFicsor/"
+        }
+      ]
+    },
+    {
+      "id": "-BayL7sBEU0",
+      "date": "2022-07",
+      "date_basis": "Event month; upload 2022-07-17 UTC",
+      "title": "Mallorca Blockchain Days — Debugging Under Fire",
+      "recording": "https://www.youtube.com/watch?v=-BayL7sBEU0&t=5972s",
+      "slides": "https://prezi.com/p/hivrg7icdtec/2022-mbd-mallorca-debugging-under-fire/",
+      "display_note": "The recording opens at the start of my talk."
+    },
+    {
+      "id": "T-TDC7VCOns",
+      "date": "2022-09",
+      "date_basis": "Event month; upload 2022-10-05 UTC",
+      "title": "Baltic Honeybadger, Riga — History of Bitcoin Privacy",
+      "recording": "https://www.youtube.com/watch?v=T-TDC7VCOns",
+      "slides": null,
+      "display_note": "Recording published 5 October 2022."
+    },
+    {
+      "id": "xbnva4eJBUI",
+      "date": "2023-03-22",
+      "date_basis": "Upload, UTC",
+      "title": "zkEconomy",
+      "recording": "https://www.youtube.com/watch?v=xbnva4eJBUI",
+      "slides": null,
+      "display_note": ""
+    },
+    {
+      "id": "6nHr1HTIai8",
+      "date": "2025-11-10",
+      "date_basis": "Upload, UTC",
+      "title": "Bitcoin Miskolc — A Bitcointól a Hosszúéletesítésig: Egy végtelen játék kezdete",
+      "recording": "https://www.youtube.com/watch?v=6nHr1HTIai8",
+      "slides": null,
+      "display_note": "In Hungarian. From Bitcoin to life extension: the beginning of an infinite game."
+    }
+  ],
+  "guest_interviews": [
+    {
+      "date": "2018-09-27",
+      "date_basis": "Original publisher episode",
+      "title": "SLP24 - Wasabi Bitcoin Wallet & Bitcoin Privacy, with Adam Ficsor (nopara73)",
+      "publisher": "Stephan Livera",
+      "url": "https://www.youtube.com/watch?v=0yG-am9TIeA",
+      "source": "https://stephanlivera.com/episode/24/",
+      "display_note": "Original episode release. The video was published the following month."
+    },
+    {
+      "date": "2018-11-04",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Wasabi Wallet Release V1.0 with Nopara ~ Open Source Everything",
+      "publisher": "World Crypto Network",
+      "url": "https://www.youtube.com/watch?v=G0vrKwUSU7M",
+      "source": "https://www.youtube.com/watch?v=G0vrKwUSU7M",
+      "display_note": ""
+    },
+    {
+      "date": "2019-01-13",
+      "date_basis": "Video publication, UTC",
+      "title": "\"The Privacy Rabbit Hole\": Nopara73, aka Ádám Ficsor Talks Bitcoin's 10-Year Anniversary",
+      "publisher": "Bitcoin Wednesday",
+      "url": "https://www.youtube.com/watch?v=BiyACpEe9os",
+      "source": "https://www.youtube.com/watch?v=BiyACpEe9os",
+      "display_note": ""
+    },
+    {
+      "date": "2019-04-10",
+      "date_basis": "Live broadcast, UTC",
+      "title": "The Latest in Wasabi Wallet, Nopara73 ~ Understanding Bitcoin",
+      "publisher": "World Crypto Network",
+      "url": "https://www.youtube.com/watch?v=0Q7iTGTtI0U",
+      "source": "https://www.youtube.com/watch?v=0Q7iTGTtI0U",
+      "display_note": ""
+    },
+    {
+      "date": "2019-04-22",
+      "date_basis": "Video publication, UTC",
+      "title": "Interview: Nopara73 on Wasabi Wallet, Bitcoin privacy and fungibility",
+      "publisher": "Crypto Insider",
+      "url": "https://www.youtube.com/watch?v=W3CQ2vAixI8",
+      "source": "https://www.youtube.com/watch?v=W3CQ2vAixI8",
+      "display_note": ""
+    },
+    {
+      "date": "2019-05-03",
+      "date_basis": "Video publication, UTC",
+      "title": "Adam Ficsor from Wasabi on Reclaiming Your Bitcoin Privacy",
+      "publisher": "The Peter McCormack Show",
+      "url": "https://www.youtube.com/watch?v=xGeo34WprxI",
+      "source": "https://www.podchaser.com/podcasts/the-peter-mccormack-show-615691/episodes/adam-ficsor-from-wasabi-on-rec-39322664",
+      "display_note": ""
+    },
+    {
+      "date": "2019-05-03",
+      "date_basis": "Video publication, UTC",
+      "title": "Interview with Nopara of Wasabi Wallet (Software Artist & Lead Developer)",
+      "publisher": "DAVANI",
+      "url": "https://www.youtube.com/watch?v=-mo7XAbzgU0",
+      "source": "https://www.youtube.com/watch?v=-mo7XAbzgU0",
+      "display_note": ""
+    },
+    {
+      "date": "2019-07-08",
+      "date_basis": "Video publication, UTC",
+      "title": "Episode 42: Adam Ficsor on Coinjoins",
+      "publisher": "DID YOU KNOW PODCAST",
+      "url": "https://www.youtube.com/watch?v=c9kwPJtG7q8",
+      "source": "http://didyouknowcrypto.com/ep42/",
+      "display_note": ""
+    },
+    {
+      "date": "2019-09-30",
+      "date_basis": "Video publication, UTC",
+      "title": "TheTotalConnector#31: Interview with Nopara-Coinjoining with Wasabi Wallet.",
+      "publisher": "DAVANI",
+      "url": "https://www.youtube.com/watch?v=fKy_XwKAYHY",
+      "source": "https://www.youtube.com/watch?v=fKy_XwKAYHY",
+      "display_note": ""
+    },
+    {
+      "date": "2019-10-25",
+      "date_basis": "Original interview article",
+      "title": "Nopara73 on Wasabi Wallet and the Quest for Bitcoin Privacy",
+      "publisher": "Bitcoin Magazine",
+      "url": "https://www.youtube.com/watch?v=adQOkh6Zxl4",
+      "source": "https://bitcoinmagazine.com/culture/nopara73-on-wasabi-wallet-and-the-quest-for-bitcoin-privacy",
+      "display_note": "Original interview article published 25 October; the video followed on 30 October."
+    },
+    {
+      "date": "2020-05-01",
+      "date_basis": "Original podcast feed",
+      "title": "S5 E6: Nopara73 on Wasabi Wallet, P2EP, CoinJoins & Cypherpunk Literature",
+      "publisher": "Bitcoin Takeover",
+      "url": "https://www.youtube.com/watch?v=zQ78_Dore4M",
+      "source": "https://bitcoin-takeover.com/audio/feed.xml",
+      "display_note": "Original podcast release. The video was published 9 August 2020."
+    },
+    {
+      "date": "2020-10-24",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Wasabi Wallet’s Adam “nopara73” Ficsor on Reckless VR",
+      "publisher": "Reckless VR",
+      "url": "https://www.youtube.com/watch?v=60r_wExbg64",
+      "source": "https://www.youtube.com/watch?v=60r_wExbg64",
+      "display_note": ""
+    },
+    {
+      "date": "2020-11-21",
+      "date_basis": "Video publication, UTC",
+      "title": "Adam from Wasabi Wallet: The Concept of Modern Privacy",
+      "publisher": "Keyword: Crypto",
+      "url": "https://www.youtube.com/watch?v=ECqcEbgJCP4",
+      "source": "https://www.youtube.com/watch?v=ECqcEbgJCP4",
+      "display_note": ""
+    },
+    {
+      "date": "2020-12-04",
+      "date_basis": "Publisher RSS publication",
+      "title": "The Unhashed Podcast #112 — Wasabi Flavored Privacy (with Adam Ficsor)",
+      "publisher": "The Unhashed Podcast",
+      "url": "https://www.spreaker.com/episode/wasabi-flavored-privacy-w-adam-ficsor--42314334",
+      "source": "https://www.spreaker.com/show/3478708/episodes/feed",
+      "display_note": ""
+    },
+    {
+      "date": "2021-02-13",
+      "date_basis": "Live broadcast, UTC",
+      "title": "1.0 The History of Wasabi Wallet",
+      "publisher": "Wasabi Wallet",
+      "url": "https://www.youtube.com/watch?v=Q1i560q08JE",
+      "source": "https://www.youtube.com/watch?v=Q1i560q08JE",
+      "display_note": ""
+    },
+    {
+      "date": "2021-06-16",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Adam Ficsor of Wasabi Wallet Talks Bitcoin Privacy - Full Interview - To The Moon Ep. 14",
+      "publisher": "Bitrefill",
+      "url": "https://www.youtube.com/watch?v=oreMQZgzVZw",
+      "source": "https://www.youtube.com/watch?v=oreMQZgzVZw",
+      "display_note": ""
+    },
+    {
+      "date": "2021-07-10",
+      "date_basis": "Podcast syndication page date",
+      "title": "Bitcoin Rehab #2 — Wasabi tárca, anonim Bitcoin és a Scamourai",
+      "publisher": "Bitcoin Rehab",
+      "url": "https://podcast.hu/podcast/bitcoinbazis-minden-ami-kripto/17976",
+      "source": "https://www.bitcoinbazis.hu/jon-a-bitcoinbazis-uj-podcast-epizodja-vendegunk-ficsor-adam-a-wasabi-tarsalapitoja/",
+      "display_note": "In Hungarian. The host’s announcement is dated 9 July; the episode listing gives 10 July."
+    },
+    {
+      "date": "2021-12-06",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Adam Ficsor, Creator of Wasabi Wallet",
+      "publisher": "John Vallis - Bitcoin Rapid-Fire",
+      "url": "https://www.youtube.com/watch?v=dh4bnABf9BQ",
+      "source": "https://www.youtube.com/watch?v=dh4bnABf9BQ",
+      "display_note": ""
+    },
+    {
+      "date": "2022-03-07",
+      "date_basis": "Video publication, UTC",
+      "title": "Join The Wasabikas S02E01 - All about Wasabi Wallet 2.0 with Adam Ficsor",
+      "publisher": "Wasabi Wallet",
+      "url": "https://www.youtube.com/watch?v=CCOHMISELNs",
+      "source": "https://www.youtube.com/watch?v=CCOHMISELNs",
+      "display_note": ""
+    },
+    {
+      "date": "2022-08-26",
+      "date_basis": "Original publisher episode",
+      "title": "Living on Blockchain — Adam, co-founder of Wasabi Wallet",
+      "publisher": "Living On Blockchain",
+      "url": "https://livingonblockchain.com/podcast/adam-co-founder-of-wasabi-wallet/",
+      "source": "https://www.youtube.com/watch?v=bge8rXwLQWE",
+      "display_note": "Full episode on the publisher’s website. The YouTube link is an excerpt."
+    },
+    {
+      "date": "2023-02-03",
+      "date_basis": "Original podcast feed",
+      "title": "S13 E2: Nopara73 on the Past and Future of Wasabi Wallet",
+      "publisher": "Bitcoin Takeover",
+      "url": "https://www.youtube.com/watch?v=1g04d39R6kU",
+      "source": "https://bitcoin-takeover.com/audio/feed.xml",
+      "display_note": "Original podcast release. The video was published 7 February 2023."
+    },
+    {
+      "date": "2023-03-20",
+      "date_basis": "Video publication, UTC",
+      "title": "Mallorca Blockchain Days 2022 - Adam Ficsor (nopara73) Wasabi Wallet - Interview",
+      "publisher": "MallorcaBlockchainDays",
+      "url": "https://www.youtube.com/watch?v=eyAc6kZJfoU",
+      "source": "https://www.youtube.com/watch?v=eyAc6kZJfoU",
+      "display_note": "Recorded at the 2022 Mallorca conference; published in 2023."
+    },
+    {
+      "date": "2024-01-12",
+      "date_basis": "Video publication, UTC",
+      "title": "The Fight for Anonymous Digital Cash w/ Nopara EPI 296",
+      "publisher": "Monero Talk",
+      "url": "https://www.youtube.com/watch?v=zYq1IQxXrUM",
+      "source": "https://www.youtube.com/watch?v=zYq1IQxXrUM",
+      "display_note": ""
+    },
+    {
+      "date": "2024-08-24",
+      "date_basis": "Original publisher RSS release date",
+      "title": "The Bitcoin Cash Podcast #124 — Properties of Bitcoin & BTC in El Salvador feat. NoPara",
+      "publisher": "The Bitcoin Cash Podcast",
+      "url": "https://rss.com/podcasts/bitcoincashpodcast/1625416",
+      "source": "https://bitcoincashpodcast.com/episodes/124",
+      "display_note": "RSS release dated 24 August 2024; the show website labels the episode 17 August."
+    },
+    {
+      "date": "2025-06-20",
+      "date_basis": "Video publication, UTC",
+      "title": "Bitcoin, Anonymity, and the Biological Clock",
+      "publisher": "CoinRock",
+      "url": "https://www.youtube.com/watch?v=eb9Hp-RD_Y0",
+      "source": "https://www.youtube.com/watch?v=eb9Hp-RD_Y0",
+      "display_note": ""
+    },
+    {
+      "date": "2025-08-05",
+      "date_basis": "Video publication, UTC",
+      "title": "Longevity as a Sport - LongevityDxTx Interview",
+      "publisher": "nopara73",
+      "url": "https://www.youtube.com/watch?v=3aPTZFlK1JQ",
+      "source": "https://www.youtube.com/watch?v=3aPTZFlK1JQ",
+      "display_note": ""
+    },
+    {
+      "date": "2026-04-28",
+      "date_basis": "Video publication, UTC",
+      "title": "The Man Turning Aging Into a Competitive Sport (And Paying Winners in Bitcoin) (with Adam Ficsor)",
+      "publisher": "Longevity Unfiltered",
+      "url": "https://www.youtube.com/watch?v=4LSSEAfCBsg",
+      "source": "https://www.youtube.com/watch?v=4LSSEAfCBsg",
+      "display_note": ""
+    }
+  ],
+  "selected_hosted_episodes": [
+    {
+      "date": "2024-04-17",
+      "guest": "Oliver Zolman",
+      "title": "Oliver Zolman, Organizer, Rejuvenation Olympics",
+      "url": "https://www.youtube.com/watch?v=iRmZoCt3BWA",
+      "role": "Host"
+    },
+    {
+      "date": "2024-08-13",
+      "guest": "Michael Lustgarten",
+      "title": "Michael Lustgarten, PhD, 15th Place, Rejuvenation Olympics",
+      "url": "https://www.youtube.com/watch?v=KFfGdf20-1g",
+      "role": "Host"
+    },
+    {
+      "date": "2024-09-22",
+      "guest": "Julie Gibson Clark, Dave Pascoe, and Siim Land",
+      "title": "Julie Gibson Clark, Dave Pascoe, Siim Land - Immortal Combat Panel",
+      "url": "https://www.youtube.com/watch?v=BrSVYGKmDmo",
+      "role": "Host"
+    },
+    {
+      "date": "2025-07-15",
+      "guest": "Alan Graves",
+      "title": "Alan Graves, Founder of DoNotAge, on the Current Reality of Aging",
+      "url": "https://www.youtube.com/watch?v=gGtEOH5w9CY",
+      "role": "Host"
+    },
+    {
+      "date": "2026-02-07",
+      "guest": "Klaus Townsend",
+      "title": "Longevity as a Sport: From Rejuvenation Olympics to Longevity World Cup | Klaus Townsend",
+      "url": "https://www.youtube.com/watch?v=hdgapJX4r5M",
+      "role": "Host"
+    },
+    {
+      "date": "2026-04-25",
+      "guest": "Aubrey de Grey",
+      "title": "Why Living to 1000 Isn't Actually Crazy | Aubrey de Grey",
+      "url": "https://www.youtube.com/watch?v=DwZ8P5X_kSI",
+      "role": "Host"
+    },
+    {
+      "date": "2026-05-07",
+      "guest": "Matteo Cassese",
+      "title": "This AI Obsession Is Destroying Developer Identity × Matteo Cassese",
+      "url": "https://www.youtube.com/watch?v=Id0DCBsBiis",
+      "role": "Host"
+    },
+    {
+      "date": "2026-06-27",
+      "guest": "Joy Kong",
+      "title": "Stem Cells: Real Results, Risks, and The Gold Standard | Dr. Joy Kong, MD",
+      "url": "https://www.youtube.com/watch?v=L7c8mfTVpl4",
+      "role": "Host"
+    },
+    {
+      "date": "2026-07-04",
+      "guest": "Liz Parrish",
+      "title": "This CEO Became Her Own Science Experiment | Liz Parrish (BioViva)",
+      "url": "https://www.youtube.com/watch?v=mD9SDO0OjeM",
+      "role": "Host"
+    },
+    {
+      "date": "2026-09-13",
+      "guest": "Irina and Michael Conboy",
+      "title": "what you need to understand to reverse aging | Dr. Irina Conboy, PhD & Dr. Michael Conboy, PhD",
+      "url": "https://www.youtube.com/watch?v=kOWAsyQCtH4",
+      "role": "Host"
+    },
+    {
+      "date": "2026-09-27",
+      "guest": "Lucas Aoun",
+      "title": "men’s health and performance optimisation with Lucas Aoun",
+      "url": "https://www.youtube.com/watch?v=hMOOq74PY7g",
+      "role": "Host"
+    }
+  ],
+  "writings": [
+    {
+      "date": "2026-05-23",
+      "date_label": "23 May 2026",
+      "title": "Two Insights Regarding the Development of Biological Aging Clocks",
+      "url": "https://nopara73.medium.com/two-insights-regarding-the-development-of-biological-aging-clocks-121fc4f29f8a",
+      "description": ""
+    },
+    {
+      "date": "2026-05-20",
+      "date_label": "20 May 2026",
+      "title": "HRAD: Human-Reviewable Agentic Development",
+      "url": "https://nopara73.medium.com/hrad-human-reviewable-agentic-development-a652705b1967",
+      "description": ""
+    },
+    {
+      "date": "2026-03-25",
+      "date_label": "25 March 2026",
+      "title": "Brute Forcing Biological Aging Clocks",
+      "url": "https://nopara73.medium.com/brute-forcing-biological-aging-clocks-ai-breakthrough-in-longevity-research-389ef8a3deeb",
+      "description": "Experiments with computational searches for biological-age models."
+    },
+    {
+      "date": "2026-02-22",
+      "date_label": "22 February 2026",
+      "title": "Longevity World Cup Season 2: The Game Evolves",
+      "url": "https://nopara73.medium.com/longevity-world-cup-season-2-the-game-evolves-dcdf6b56f6ea",
+      "description": ""
+    },
+    {
+      "date": "2025-09-16",
+      "date_label": "16 September 2025",
+      "title": "Forget Football: The Longevity World Cup Has Launched",
+      "url": "https://nopara73.medium.com/longevity-world-cup-launch-9ac5de9991df",
+      "description": ""
+    },
+    {
+      "date": "2024-03-02",
+      "date_label": "2 March 2024",
+      "title": "Bodybuilding, Longevity and The Philosophy of Games",
+      "url": "https://nopara73.medium.com/longevity-game-9a79a8645bd9",
+      "description": ""
+    },
+    {
+      "date": "2023-12-26",
+      "date_label": "26 December 2023",
+      "title": "Setting Sail from Wasabi",
+      "url": "https://nopara73.medium.com/goodbye-wasabi-c8116c88fb8c",
+      "description": "Creating the wallet, building the company, and handing over leadership."
+    },
+    {
+      "date": "2021-05-24",
+      "date_label": "24 May 2021",
+      "title": "Privacy, Fungibility, Anonymity",
+      "url": "https://nopara73.medium.com/privacy-fungibility-anonymity-451d029355f7",
+      "description": ""
+    },
+    {
+      "date": "2018-07-31",
+      "date_label": "31 July 2018",
+      "title": "Pay To EndPoint",
+      "url": "https://nopara73.medium.com/pay-to-endpoint-56eb05d3cac6",
+      "description": "A design proposal following a group discussion about collaborative Bitcoin payments."
+    },
+    {
+      "date": "2017-02",
+      "date_label": "February 2017",
+      "title": "Bitcoin Privacy Landscape in 2017",
+      "url": "https://medium.com/hackernoon/bitcoin-privacy-landscape-in-2017-zero-to-hero-guidelines-and-research-a10d30f1e034",
+      "description": ""
+    },
+    {
+      "date": "2016–2017",
+      "date_label": "2016–2017",
+      "title": "Understanding TumbleBit",
+      "url": "https://hackernoon.com/understanding-tumblebit-part-1-making-the-case-823d786113f3",
+      "description": "A series explaining the protocol and implementation."
+    },
+    {
+      "date": "",
+      "date_label": "Essay and source notes",
+      "title": "Samourai Wallet post-mortem",
+      "url": "https://github.com/nopara73/ScamouraiWallet/blob/master/POST_MORTEM.md",
+      "description": ""
+    }
+  ]
+}

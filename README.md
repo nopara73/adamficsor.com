@@ -4,12 +4,18 @@ Plain HTML and CSS, published with GitHub Pages at https://adamficsor.com/.
 
 ## Editing
 
-- `site/index.html`: biography, projects, publications, selected writing.
-- `site/writing.html`: links to writing hosted elsewhere.
+- `site/index.html`: concise biography and selected work.
+- `site/work.html`: company building, projects, publications, and research contributions.
+- `content/archive.json`: curated talks, guest interviews, hosted conversations, and writing.
+- `tools/build_archives.py`: renders the four archive pages using Python's standard library.
+- `site/podcast.html`, `site/talks.html`, `site/interviews.html`, `site/writing.html`: generated archives.
 - `site/style.css`: layout and typography.
 - `site/CNAME`: the canonical domain.
 
-Push to `master` to publish. No build tools or runtime dependencies are required.
+After changing the archive data, run `python tools/build_archives.py` and include
+the generated pages in the commit. Push to `master` to publish. The Pages workflow
+also renders the archives before uploading. No third-party build or runtime
+dependencies are required.
 For a local preview, run `python -m http.server 8271 --bind 127.0.0.1 --directory site`.
 
 ## Hosting and domains
@@ -44,3 +50,15 @@ He no longer identifies as a software developer. Nomadic Method is a minor side
 project, not a main project alongside Wasabi and Longevity World Cup.
 
 There are no analytics, cookies, remote fonts, or third-party scripts.
+
+The October 2026 update applies the completed primary-source research inventory.
+Archive dates distinguish event dates from release or upload dates. Preserve
+the Advancing Bitcoin excerpt label and do not invent missing slides or dates.
+The fuller work page links the evidence for each contribution.
+
+Keep Longevity World Cup and Immortal Combat prominent as current work. The
+introduction ends with “Thanks for coming to my TED talk.” Forbes recognition
+is the Hungary 2020 list. WabiSabi's preprint and journal article are one work.
+TumbleBit and ShareLock acknowledgments do not imply paper co-authorship.
+P2EP followed group discussion; BIP78 is Nicolas Dorier's proposal. Do not
+present the biological-age clock experiments as validated clinical results.

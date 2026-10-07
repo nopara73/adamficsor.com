@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://adamficsor.com/</loc></url>
+  <url><loc>https://adamficsor.com/work.html</loc></url>
+  <url><loc>https://adamficsor.com/podcast.html</loc></url>
+  <url><loc>https://adamficsor.com/talks.html</loc></url>
+  <url><loc>https://adamficsor.com/interviews.html</loc></url>
   <url><loc>https://adamficsor.com/writing.html</loc></url>
 </urlset>

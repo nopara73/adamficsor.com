@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: actions/configure-pages@v6
+      - name: Render archives
+        run: python3 tools/build_archives.py
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
