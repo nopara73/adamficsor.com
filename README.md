@@ -5,10 +5,10 @@ Plain HTML and CSS, published with GitHub Pages at https://adamficsor.com/.
 ## Editing
 
 - `site/index.html`: concise biography and selected work.
-- `site/work.html`: company building, projects, publications, and research contributions.
+- `content/work.json`: selected work, source links, inspected evidence, and exclusions.
 - `content/archive.json`: curated talks, guest interviews, hosted conversations, and writing.
-- `tools/build_archives.py`: renders the four archive pages using Python's standard library.
-- `site/podcast.html`, `site/talks.html`, `site/interviews.html`, `site/writing.html`: generated archives.
+- `tools/build_archives.py`: renders the work page and four archives using Python's standard library.
+- `site/work.html`, `site/podcast.html`, `site/talks.html`, `site/interviews.html`, `site/writing.html`: generated pages.
 - `site/style.css`: layout and typography.
 - `site/CNAME`: the canonical domain.
 
@@ -51,7 +51,9 @@ project, not a main project alongside Wasabi and Longevity World Cup.
 
 There are no analytics, cookies, remote fonts, or third-party scripts.
 
-The October 2026 update applies the completed primary-source research inventory.
+The October 2026 update applies a curated primary-source audit. The work data
+records what was inspected and why entries were selected or excluded; repository
+existence and star counts alone do not establish a finished contribution.
 Archive dates distinguish event dates from release or upload dates. Preserve
 the Advancing Bitcoin excerpt label and do not invent missing slides or dates.
 The fuller work page links the evidence for each contribution.
@@ -63,3 +65,8 @@ preprint and journal article are one work.
 TumbleBit and ShareLock acknowledgments do not imply paper co-authorship.
 P2EP followed group discussion; BIP78 is Nicolas Dorier's proposal. Do not
 present the biological-age clock experiments as validated clinical results.
+Keep unfinished EDD, LastWallet, the Lustgarten calculator, and Longevity
+Specific Training out of the portfolio. Credit Block Digest podcast co-hosting;
+do not infer a substantive role from its experimental Medium publication.
+Annie Nosh is the first podcast recommendation. Keep the earlier Pursuit of
+Value series and David Friedman conversation distinct from Immortal Combat.

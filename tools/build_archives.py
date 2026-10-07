@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "content" / "archive.json").read_text(encoding="utf-8"))
+WORK = json.loads((ROOT / "content" / "work.json").read_text(encoding="utf-8"))
 NAV = [("index.html", "Main"), ("work.html", "Work"), ("podcast.html", "Podcast"),
        ("talks.html", "Talks"), ("interviews.html", "Interviews"), ("writing.html", "Writing")]
 
@@ -125,36 +126,79 @@ interview_body = '''    <section aria-labelledby="interviews">
 ''' + grouped(DATA['guest_interviews'], interview)
 
 episodes = []
-for item in reversed(DATA['selected_hosted_episodes']):
+for item in DATA['selected_hosted_episodes']:
     episodes.append(entry(link(item['url'], item['guest']),
-                          f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item["title"])}'))
+                          f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item.get("description", item["title"]))}'))
 podcast_body = '''    <section aria-labelledby="podcast">
-      <h2 id="podcast">Immortal Combat</h2>
+      <h2 id="podcast">Podcasts and conversations</h2>
       <div class="section-content">
         <p>I host Immortal Combat, a podcast about longevity. Since 2024, I’ve been talking with researchers, physicians, founders, and people working to extend healthy life.</p>
+        <p>Start with my conversation with <a href="https://www.youtube.com/watch?v=GUQ9sumtkJk">Annie Nosh</a>. Other conversations include <a href="https://www.youtube.com/watch?v=IcFuB0bxRsI">Matt Kaeberlein</a> and <a href="https://www.youtube.com/watch?v=b3D1k1-w9K4">Dave Pascoe</a>.</p>
         <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185sO4i7eR3oUO_lMmlJ2K1cL">Browse the official episode playlist</a> or <a href="https://www.youtube.com/@nopara73">visit my YouTube channel</a>.</p>
       </div>
     </section>
     <section aria-labelledby="episodes">
-      <h2 id="episodes">Selected conversations</h2>
+      <h2 id="episodes">Selected longevity conversations</h2>
 ''' + entries(episodes) + '\n    </section>'
 
-writing_rows = []
-for item in DATA['writings']:
+value_rows = [entry(link(item['url'], item['guest']),
+                    f'<span class="record-meta">Published {human_date(item["date"])}</span>' +
+                    ('<br>' + escape(item['description']) if item['description'] else ''))
+              for item in DATA['value_series']]
+podcast_body += '''
+    <section aria-labelledby="pursuit-of-value">
+      <h2 id="pursuit-of-value">Pursuit of Value with Derek Mazzone</h2>
+      <div class="section-content">
+        <p>My 2023 conversation series with Derek Mazzone, author of <i>The Pursuit of Value: A Philosophy of Loss and Equanimity</i>. We discuss method, value, religion, ethics, meaning, and mind.</p>
+        <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185uz_WBVDXMyZBCGbe8BUgdJ">Full series playlist</a></p>
+      </div>
+''' + entries(value_rows) + '\n    </section>'
+
+other_rows = [entry(link(item['url'], item['guest']),
+                    f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item["description"])}')
+              for item in DATA['other_conversations']]
+podcast_body += '<section aria-labelledby="other-conversations"><h2 id="other-conversations">Other conversations</h2>' + entries(other_rows) + '</section>'
+block_rows = [entry(link(item['url'], item['guest']), escape(item['description']),
+                    link('https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg', 'Block Digest channel'))
+              for item in DATA['cohosted_podcasts']]
+podcast_body += '<section aria-labelledby="block-digest"><h2 id="block-digest">Block Digest</h2>' + entries(block_rows) + '</section>'
+
+def writing(item):
     description = escape(item.get('description', ''))
     text = f'<span class="record-meta">{escape(item["date_label"])}</span>'
     if description:
         text += '<br>' + description
-    writing_rows.append(entry(link(item['url'], item['title']), text))
+    links = ' · '.join(link(source['url'], source['label']) for source in item.get('extra_links', []))
+    return entry(link(item['url'], item['title']), text, links, item.get('id', ''))
+
+
 writing_body = '''    <section aria-labelledby="writing">
       <h2 id="writing">Writing</h2>
-      <p class="section-content">Essays, proposals, and technical explanations. My full article archive is on <a href="https://nopara73.medium.com/">Medium</a>.</p>
-''' + entries(writing_rows) + '\n    </section>'
+      <p class="section-content">Selected essays, proposals, and technical explanations. More articles are on <a href="https://nopara73.medium.com/">Medium</a>.</p>
+    </section>
+'''
+for category, title in [('longevity', 'Longevity and games'), ('bitcoin', 'Bitcoin privacy and Wasabi'),
+                        ('value', 'Value and philosophy'), ('software', 'Software and development')]:
+    rows = [writing(item) for item in DATA['writings'] if item['category'] == category]
+    writing_body += f'<section aria-labelledby="{category}"><h2 id="{category}">{title}</h2>' + entries(rows) + '</section>\n'
+
+work_sections = []
+for section in WORK['sections']:
+    rows = [entry(link(item['url'], item['title']) if item.get('url') else escape(item['title']),
+                  escape(item['description']),
+                  ' · '.join(link(source['url'], source['label']) for source in item.get('links', [])),
+                  item.get('id', '')) for item in section['entries']]
+    body = entries(rows)
+    if section.get('after'):
+        body += '<p class="section-content">' + link(section['after']['url'], section['after']['label']) + '</p>'
+    work_sections.append(f'<section aria-labelledby="{section["id"]}"><h2 id="{section["id"]}">{escape(section["title"])}</h2>{body}</section>')
+work_body = '\n'.join(work_sections)
 
 pages = {
+    'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
     'talks.html': ('Talks', 'Public talks, panels, and demonstrations by Ádám Ficsór, with recordings and slides.', talk_body),
     'interviews.html': ('Interviews', 'Guest interviews with Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
-    'podcast.html': ('Immortal Combat', 'Immortal Combat: a longevity podcast hosted by Ádám Ficsór. Selected conversations and the episode playlist.', podcast_body),
+    'podcast.html': ('Podcasts and conversations', 'Podcasts and conversations with Ádám Ficsór: Immortal Combat, Pursuit of Value, David Friedman, and Block Digest.', podcast_body),
     'writing.html': ('Writing', 'Writing by Ádám Ficsór on Bitcoin privacy, longevity, games, and his past software work.', writing_body),
 }
 for filename, args in pages.items():

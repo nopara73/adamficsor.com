@@ -416,73 +416,27 @@
   ],
   "selected_hosted_episodes": [
     {
-      "date": "2024-04-17",
-      "guest": "Oliver Zolman",
-      "title": "Oliver Zolman, Organizer, Rejuvenation Olympics",
-      "url": "https://www.youtube.com/watch?v=iRmZoCt3BWA",
+      "date": "2025-08-19",
+      "guest": "Annie Nosh",
+      "title": "Annie Nosh, 2nd Place, Rejuvenation Olympics",
+      "description": "Her path into longevity, daily routines, and what she learned through trial and error.",
+      "url": "https://www.youtube.com/watch?v=GUQ9sumtkJk",
       "role": "Host"
     },
     {
-      "date": "2024-08-13",
-      "guest": "Michael Lustgarten",
-      "title": "Michael Lustgarten, PhD, 15th Place, Rejuvenation Olympics",
-      "url": "https://www.youtube.com/watch?v=KFfGdf20-1g",
+      "date": "2025-09-18",
+      "guest": "Matt Kaeberlein",
+      "title": "Dr Matt Kaeberlein, PhD where's the longevity BREAKTHROUGH we're all IGNORING?!!",
+      "description": "Aging research, rapamycin, scientific incentives, and the need for discovery science.",
+      "url": "https://www.youtube.com/watch?v=IcFuB0bxRsI",
       "role": "Host"
     },
     {
-      "date": "2024-09-22",
-      "guest": "Julie Gibson Clark, Dave Pascoe, and Siim Land",
-      "title": "Julie Gibson Clark, Dave Pascoe, Siim Land - Immortal Combat Panel",
-      "url": "https://www.youtube.com/watch?v=BrSVYGKmDmo",
-      "role": "Host"
-    },
-    {
-      "date": "2025-07-15",
-      "guest": "Alan Graves",
-      "title": "Alan Graves, Founder of DoNotAge, on the Current Reality of Aging",
-      "url": "https://www.youtube.com/watch?v=gGtEOH5w9CY",
-      "role": "Host"
-    },
-    {
-      "date": "2026-02-07",
-      "guest": "Klaus Townsend",
-      "title": "Longevity as a Sport: From Rejuvenation Olympics to Longevity World Cup | Klaus Townsend",
-      "url": "https://www.youtube.com/watch?v=hdgapJX4r5M",
-      "role": "Host"
-    },
-    {
-      "date": "2026-04-25",
-      "guest": "Aubrey de Grey",
-      "title": "Why Living to 1000 Isn't Actually Crazy | Aubrey de Grey",
-      "url": "https://www.youtube.com/watch?v=DwZ8P5X_kSI",
-      "role": "Host"
-    },
-    {
-      "date": "2026-05-07",
-      "guest": "Matteo Cassese",
-      "title": "This AI Obsession Is Destroying Developer Identity × Matteo Cassese",
-      "url": "https://www.youtube.com/watch?v=Id0DCBsBiis",
-      "role": "Host"
-    },
-    {
-      "date": "2026-06-27",
-      "guest": "Joy Kong",
-      "title": "Stem Cells: Real Results, Risks, and The Gold Standard | Dr. Joy Kong, MD",
-      "url": "https://www.youtube.com/watch?v=L7c8mfTVpl4",
-      "role": "Host"
-    },
-    {
-      "date": "2026-07-04",
-      "guest": "Liz Parrish",
-      "title": "This CEO Became Her Own Science Experiment | Liz Parrish (BioViva)",
-      "url": "https://www.youtube.com/watch?v=mD9SDO0OjeM",
-      "role": "Host"
-    },
-    {
-      "date": "2026-09-13",
-      "guest": "Irina and Michael Conboy",
-      "title": "what you need to understand to reverse aging | Dr. Irina Conboy, PhD & Dr. Michael Conboy, PhD",
-      "url": "https://www.youtube.com/watch?v=kOWAsyQCtH4",
+      "date": "2024-08-20",
+      "guest": "Dave Pascoe",
+      "title": "Dave Pascoe, 11th Place, Rejuvenation Olympics",
+      "description": "His approach to longevity, daily routines, and life as a hacker and biohacker.",
+      "url": "https://www.youtube.com/watch?v=b3D1k1-w9K4",
       "role": "Host"
     },
     {
@@ -490,7 +444,80 @@
       "guest": "Lucas Aoun",
       "title": "men’s health and performance optimisation with Lucas Aoun",
       "url": "https://www.youtube.com/watch?v=hMOOq74PY7g",
-      "role": "Host"
+      "role": "Host",
+      "description": "Hormones, laboratory measurements, and testosterone."
+    },
+    {
+      "date": "2026-09-13",
+      "guest": "Irina and Michael Conboy",
+      "title": "what you need to understand to reverse aging | Dr. Irina Conboy, PhD & Dr. Michael Conboy, PhD",
+      "url": "https://www.youtube.com/watch?v=kOWAsyQCtH4",
+      "role": "Host",
+      "description": "Plasma dilution, systemic aging, and the limitations of biological-aging clocks."
+    },
+    {
+      "date": "2026-07-04",
+      "guest": "Liz Parrish",
+      "title": "This CEO Became Her Own Science Experiment | Liz Parrish (BioViva)",
+      "url": "https://www.youtube.com/watch?v=mD9SDO0OjeM",
+      "role": "Host",
+      "description": "Gene therapy, telomeres, and her experience with BioViva."
+    },
+    {
+      "date": "2026-06-27",
+      "guest": "Joy Kong",
+      "title": "Stem Cells: Real Results, Risks, and The Gold Standard | Dr. Joy Kong, MD",
+      "url": "https://www.youtube.com/watch?v=L7c8mfTVpl4",
+      "role": "Host",
+      "description": "Stem-cell therapy, the evidence behind it, and the questions around its use."
+    },
+    {
+      "date": "2026-04-25",
+      "guest": "Aubrey de Grey",
+      "title": "Why Living to 1000 Isn't Actually Crazy | Aubrey de Grey",
+      "url": "https://www.youtube.com/watch?v=DwZ8P5X_kSI",
+      "role": "Host",
+      "description": "Longevity escape velocity, mouse studies, and the evidence aging research still needs."
+    },
+    {
+      "date": "2026-02-07",
+      "guest": "Klaus Townsend",
+      "title": "Longevity as a Sport: From Rejuvenation Olympics to Longevity World Cup | Klaus Townsend",
+      "url": "https://www.youtube.com/watch?v=hdgapJX4r5M",
+      "role": "Host",
+      "description": "Longevity as a sport and what biological-aging clocks measure."
+    },
+    {
+      "date": "2025-07-15",
+      "guest": "Alan Graves",
+      "title": "Alan Graves, Founder of DoNotAge, on the Current Reality of Aging",
+      "url": "https://www.youtube.com/watch?v=gGtEOH5w9CY",
+      "role": "Host",
+      "description": "Supplement quality, biological-age testing, and funding longevity research."
+    },
+    {
+      "date": "2024-09-22",
+      "guest": "Julie Gibson Clark, Dave Pascoe, and Siim Land",
+      "title": "Julie Gibson Clark, Dave Pascoe, Siim Land - Immortal Combat Panel",
+      "url": "https://www.youtube.com/watch?v=BrSVYGKmDmo",
+      "role": "Host",
+      "description": "A panel on aging, competition, and different approaches to health."
+    },
+    {
+      "date": "2024-08-13",
+      "guest": "Michael Lustgarten",
+      "title": "Michael Lustgarten, PhD, 15th Place, Rejuvenation Olympics",
+      "url": "https://www.youtube.com/watch?v=KFfGdf20-1g",
+      "role": "Host",
+      "description": "Tracking biomarkers, testing changes, and the limits of published studies."
+    },
+    {
+      "date": "2024-04-17",
+      "guest": "Oliver Zolman",
+      "title": "Oliver Zolman, Organizer, Rejuvenation Olympics",
+      "url": "https://www.youtube.com/watch?v=iRmZoCt3BWA",
+      "role": "Host",
+      "description": "Biological-age measurement, the Rejuvenation Olympics, and longevity competitions."
     }
   ],
   "writings": [
@@ -499,55 +526,127 @@
       "date_label": "23 May 2026",
       "title": "Two Insights Regarding the Development of Biological Aging Clocks",
       "url": "https://nopara73.medium.com/two-insights-regarding-the-development-of-biological-aging-clocks-121fc4f29f8a",
-      "description": ""
+      "description": "",
+      "category": "longevity"
     },
     {
       "date": "2026-05-20",
       "date_label": "20 May 2026",
       "title": "HRAD: Human-Reviewable Agentic Development",
       "url": "https://nopara73.medium.com/hrad-human-reviewable-agentic-development-a652705b1967",
-      "description": ""
+      "description": "",
+      "category": "software"
     },
     {
       "date": "2026-03-25",
       "date_label": "25 March 2026",
       "title": "Brute Forcing Biological Aging Clocks",
       "url": "https://nopara73.medium.com/brute-forcing-biological-aging-clocks-ai-breakthrough-in-longevity-research-389ef8a3deeb",
-      "description": "Experiments with computational searches for biological-age models."
+      "description": "Experiments with computational searches for biological-age models.",
+      "category": "longevity"
     },
     {
       "date": "2026-02-22",
       "date_label": "22 February 2026",
       "title": "Longevity World Cup Season 2: The Game Evolves",
       "url": "https://nopara73.medium.com/longevity-world-cup-season-2-the-game-evolves-dcdf6b56f6ea",
-      "description": ""
+      "description": "",
+      "category": "longevity"
     },
     {
       "date": "2025-09-16",
       "date_label": "16 September 2025",
       "title": "Forget Football: The Longevity World Cup Has Launched",
       "url": "https://nopara73.medium.com/longevity-world-cup-launch-9ac5de9991df",
-      "description": ""
+      "description": "",
+      "category": "longevity"
+    },
+    {
+      "date": "2024-08-09",
+      "date_label": "Written in 2021; republished 9 August 2024",
+      "title": "Privacy Guarantees Of Wasabi Wallet",
+      "url": "https://nopara73.medium.com/privacy-guarantees-of-wasabi-wallet-bedfce31b74c",
+      "category": "bitcoin",
+      "description": "The coordinator, blockchain analysis, and the practical problem of organizing CoinJoin amounts."
     },
     {
       "date": "2024-03-02",
       "date_label": "2 March 2024",
       "title": "Bodybuilding, Longevity and The Philosophy of Games",
       "url": "https://nopara73.medium.com/longevity-game-9a79a8645bd9",
-      "description": ""
+      "description": "",
+      "category": "longevity"
     },
     {
       "date": "2023-12-26",
       "date_label": "26 December 2023",
       "title": "Setting Sail from Wasabi",
       "url": "https://nopara73.medium.com/goodbye-wasabi-c8116c88fb8c",
-      "description": "Creating the wallet, building the company, and handing over leadership."
+      "description": "Creating the wallet, building the company, and handing over leadership.",
+      "category": "bitcoin"
+    },
+    {
+      "date": "2023-05-26",
+      "date_label": "26 May 2023",
+      "title": "Intrinsic Value: Gold vs Bitcoin",
+      "url": "https://nopara73.medium.com/intrinsic-value-gold-vs-bitcoin-1efb80e95326",
+      "category": "value",
+      "description": "An essay on valuation and what it means to call something intrinsically valuable."
+    },
+    {
+      "date": "2022-07-18",
+      "date_label": "18 July 2022",
+      "title": "Wasabigeddon",
+      "url": "https://nopara73.medium.com/wasabigeddon-9c63de88c1a1",
+      "category": "bitcoin",
+      "description": "The Wasabi 2.0 launch, attacks, and debugging under pressure."
     },
     {
       "date": "2021-05-24",
       "date_label": "24 May 2021",
       "title": "Privacy, Fungibility, Anonymity",
       "url": "https://nopara73.medium.com/privacy-fungibility-anonymity-451d029355f7",
+      "description": "",
+      "category": "bitcoin"
+    },
+    {
+      "date": "2020-01-13",
+      "date_label": "13 January 2020",
+      "title": "Analyzing Wasabi With KYCP.org",
+      "url": "https://nopara73.medium.com/kycp-9f81d6e07ed1",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2019-04-03",
+      "date_label": "3 April 2019",
+      "title": "Network Level Privacy",
+      "url": "https://nopara73.medium.com/bitcoin-core-vs-wasabi-wallet-network-level-privacy-bdca1d501387",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2019-03-19",
+      "date_label": "19 March 2019",
+      "title": "Bitcoin Development: Mental Models",
+      "url": "https://nopara73.medium.com/bitcoin-development-mental-models-9ac944435709",
+      "category": "software",
+      "description": ""
+    },
+    {
+      "date": "2018-10",
+      "date_label": "2018",
+      "title": "Rating Bitcoin Wallets",
+      "url": "https://github.com/nopara73/RatingBitcoinWallets",
+      "category": "bitcoin",
+      "description": "A historical framework for comparing privacy, trust, security, and usability."
+    },
+    {
+      "date": "2018-08-20",
+      "date_label": "20 August 2018",
+      "title": "Traditional Bitcoin Mixers",
+      "url": "https://nopara73.medium.com/traditional-bitcoin-mixers-6a092e59d8c2",
+      "category": "bitcoin",
       "description": ""
     },
     {
@@ -555,28 +654,209 @@
       "date_label": "31 July 2018",
       "title": "Pay To EndPoint",
       "url": "https://nopara73.medium.com/pay-to-endpoint-56eb05d3cac6",
-      "description": "A design proposal following a group discussion about collaborative Bitcoin payments."
+      "description": "A design proposal following a group discussion about collaborative Bitcoin payments.",
+      "category": "bitcoin"
+    },
+    {
+      "date": "2018-07-06",
+      "date_label": "6 July 2018",
+      "title": "Wasabi: Privacy Focused Bitcoin Wallet for Desktop",
+      "url": "https://nopara73.medium.com/wasabi-privacy-focused-bitcoin-wallet-for-desktop-3962d567045a",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2018-02-10",
+      "date_label": "10 February 2018",
+      "title": "Anonymous Bitcoin",
+      "url": "https://nopara73.medium.com/anonymous-bitcoin-1fae5d1e33b7",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2017-11-29",
+      "date_label": "29 November 2017; updated 6 March 2019",
+      "title": "Coin Control Is Must Learn If You Care About Your Privacy In Bitcoin",
+      "url": "https://nopara73.medium.com/coin-control-is-must-learn-if-you-care-about-your-privacy-in-bitcoin-33b9a5f224a2",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2017-08-14",
+      "date_label": "14 August 2017",
+      "title": "Introducing ZeroLink — The Bitcoin Fungibility Framework",
+      "url": "https://nopara73.medium.com/introducing-zerolink-the-bitcoin-fungibility-framework-dc5338086198",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2017-07-22",
+      "date_label": "22 July 2017",
+      "title": "TumbleBit vs CoinJoin",
+      "url": "https://nopara73.medium.com/tumblebit-vs-coinjoin-15e5a7d58e3",
+      "category": "bitcoin",
+      "description": ""
+    },
+    {
+      "date": "2017-03-26",
+      "date_label": "26 March 2017",
+      "title": "Full Node Level Privacy Even For Mobile Wallets?",
+      "url": "https://nopara73.medium.com/full-node-level-privacy-even-for-mobile-wallets-transaction-filtered-full-block-downloading-wallet-16ef1847c21",
+      "category": "bitcoin",
+      "description": "Transaction-filtered full-block downloading and the tradeoffs of lightweight wallets."
     },
     {
       "date": "2017-02",
       "date_label": "February 2017",
       "title": "Bitcoin Privacy Landscape in 2017",
       "url": "https://medium.com/hackernoon/bitcoin-privacy-landscape-in-2017-zero-to-hero-guidelines-and-research-a10d30f1e034",
-      "description": ""
+      "description": "",
+      "category": "bitcoin"
     },
     {
       "date": "2016–2017",
       "date_label": "2016–2017",
       "title": "Understanding TumbleBit",
       "url": "https://hackernoon.com/understanding-tumblebit-part-1-making-the-case-823d786113f3",
-      "description": "A series explaining the protocol and implementation."
+      "description": "Five parts: the case for TumbleBit, the payment-hub design, privacy, theft resistance, and trying the implementation.",
+      "category": "bitcoin",
+      "id": "tumblebit-series",
+      "extra_links": [
+        {
+          "url": "https://hackernoon.com/understanding-tumblebit-part-2-the-endgame-instant-anonymous-scaleable-payment-system-on-top-479e7eb9ca24",
+          "label": "Part 2"
+        },
+        {
+          "url": "https://medium.com/hackernoon/understanding-tumblebit-part-3-not-even-the-tumbler-can-breach-your-privacy-how-8d49d89e3a0d",
+          "label": "Part 3"
+        },
+        {
+          "url": "https://hackernoon.com/understanding-tumblebit-part-4-not-even-the-tumbler-can-steal-your-coins-482e7076ef22",
+          "label": "Part 4"
+        },
+        {
+          "url": "https://hackernoon.com/understanding-tumblebit-part-5-try-it-out-65b7a8d21a96",
+          "label": "Part 5"
+        }
+      ]
+    },
+    {
+      "date": "2016",
+      "date_label": "2016",
+      "title": "Forever Alone Programming",
+      "url": "https://github.com/nopara73/ForeverAloneProgramming",
+      "category": "software",
+      "description": "A development process for solo programmers and small teams."
     },
     {
       "date": "",
       "date_label": "Essay and source notes",
       "title": "Samourai Wallet post-mortem",
       "url": "https://github.com/nopara73/ScamouraiWallet/blob/master/POST_MORTEM.md",
-      "description": ""
+      "description": "",
+      "category": "bitcoin"
+    }
+  ],
+  "value_series": [
+    {
+      "date": "2023-11-11",
+      "guest": "Introduction",
+      "title": "Pursuit of Value Podcast | Derek Mazzone Introduction",
+      "description": "Derek Mazzone’s background, his book, and why value matters.",
+      "url": "https://www.youtube.com/watch?v=I2ULvk7wCU4",
+      "role": "Host"
+    },
+    {
+      "date": "2023-11-18",
+      "guest": "Method",
+      "title": "Pursuit of Value Podcast | Method",
+      "description": "Pragmatism and philosophical methods.",
+      "url": "https://www.youtube.com/watch?v=d-ipXgmdaCc",
+      "role": "Host"
+    },
+    {
+      "date": "2023-11-25",
+      "guest": "Value",
+      "title": "Pursuit of Value Podcast | Value",
+      "description": "What value is and how it relates to the goals of a life.",
+      "url": "https://www.youtube.com/watch?v=hHL-Y4pNSVU",
+      "role": "Host"
+    },
+    {
+      "date": "2023-12-02",
+      "guest": "Religion",
+      "title": "Pursuit of Value Podcast | Religion",
+      "description": "Religion, spirituality, and value.",
+      "url": "https://www.youtube.com/watch?v=k99b7tSL9WU",
+      "role": "Host"
+    },
+    {
+      "date": "2023-12-09",
+      "guest": "Ethics",
+      "title": "Pursuit of Value Podcast | Ethics",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=V7ZAcghbNbM",
+      "role": "Host"
+    },
+    {
+      "date": "2023-12-16",
+      "guest": "Meaning",
+      "title": "Pursuit of Value Podcast | Meaning",
+      "description": "",
+      "url": "https://www.youtube.com/watch?v=jteryyaJjw0",
+      "role": "Host"
+    },
+    {
+      "date": "2023-12-23",
+      "guest": "Mind, part 1",
+      "title": "Pursuit of Value Podcast | Mind P1",
+      "description": "Existence, thinking, and goals for life.",
+      "url": "https://www.youtube.com/watch?v=JZtNdFYBoNs",
+      "role": "Host"
+    },
+    {
+      "date": "2023-12-30",
+      "guest": "Mind, part 2",
+      "title": "Pursuit of Value Podcast | Mind P2",
+      "description": "The final conversation in the series.",
+      "url": "https://www.youtube.com/watch?v=toareh8kClc",
+      "role": "Host"
+    }
+  ],
+  "other_conversations": [
+    {
+      "date": "2026-04-11",
+      "guest": "Dave Pascoe — Being a Hacker Before Hacking Was Invented",
+      "title": "Being a Hacker Before Hacking was Invented | Dave Pascoe",
+      "description": "From punch cards and early networks to automation and AI.",
+      "url": "https://www.youtube.com/watch?v=1GlbGJuKMgo",
+      "role": "Host"
+    },
+    {
+      "date": "2026-05-07",
+      "guest": "Matteo Cassese — Agentic Fever",
+      "title": "This AI Obsession Is Destroying Developer Identity × Matteo Cassese",
+      "description": "AI agents, burnout, context switching, and changing work.",
+      "url": "https://www.youtube.com/watch?v=Id0DCBsBiis",
+      "role": "Host"
+    },
+    {
+      "date": "2021-06-14",
+      "guest": "David Friedman — The World of Strong Privacy",
+      "title": "nopara73 & David Friedman - The World of Strong Privacy",
+      "description": "Encryption, anonymous payments, reputation, and the future of privacy.",
+      "url": "https://www.youtube.com/watch?v=19pgIIRUvvs",
+      "role": "Host"
+    }
+  ],
+  "cohosted_podcasts": [
+    {
+      "date": "2019-04-17",
+      "guest": "Block Digest",
+      "title": "Block Digest #172 - Public Kangaroo Court",
+      "description": "I co-hosted this Bitcoin news and technology podcast. Episode #172 credits me alongside Shinobius, Janine, and Rick.",
+      "url": "https://www.youtube.com/watch?v=1pcKQIXPbec",
+      "role": "Co-host"
     }
   ]
 }
