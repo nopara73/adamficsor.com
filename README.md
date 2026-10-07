@@ -32,5 +32,13 @@ All copy is original; no biography or article content was copied from that site.
 - https://eprint.iacr.org/2021/206
 - https://nopara73.medium.com/
 - https://nopara73.medium.com/goodbye-wasabi-c8116c88fb8c
+- https://github.com/nopara73/ScamouraiWallet/blob/master/POST_MORTEM.md
+- https://github.com/ProgrammingBlockchain/ProgrammingBlockchain/blob/master/cover.md
+- https://github.com/nopara73/LongevityWorldCup/blob/master/LongevityWorldCup.Documentation/About.md
+
+Ádám created Wasabi Wallet and ZeroLink. Preserve that distinction when editing
+the biography; a historical contributor list is not a list of co-creators.
+He no longer identifies as a software developer. Nomadic Method is a minor side
+project, not a main project alongside Wasabi and Longevity World Cup.
 
 There are no analytics, cookies, remote fonts, or third-party scripts.
