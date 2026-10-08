@@ -106,7 +106,10 @@
       ],
       "after": {
         "url": "https://www.forbes.hu/print/75-eves-onkentesunk-is-van-2-3/",
-        "label": "Forbes Hungary included me in its 2020 30 Under 30 list for this work."
+        "prefix": "In 2020, I was named to ",
+        "label": "Forbes Hungary’s 30 Under 30",
+        "suffix": ".",
+        "inspected": "Rechecked on 8 October 2026: the URL loads Forbes's 30/30 article dated May 2020. Its indexed text names Ficsór Ádám (29), co-founder and research leader at zkSNACKs. The live article requires a Forbes subscription to read the full list."
       }
     },
     {

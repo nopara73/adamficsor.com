@@ -195,7 +195,8 @@ for section in WORK['sections']:
                   item.get('id', '')) for item in section['entries']]
     body = entries(rows)
     if section.get('after'):
-        body += '<p class="section-content">' + link(section['after']['url'], section['after']['label']) + '</p>'
+        after = section['after']
+        body += '<p class="section-content">' + escape(after.get('prefix', '')) + link(after['url'], after['label']) + escape(after.get('suffix', '')) + '</p>'
     work_sections.append(f'<section aria-labelledby="{section["id"]}"><h2 id="{section["id"]}">{escape(section["title"])}</h2>{body}</section>')
 work_body = '\n'.join(work_sections)
 work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
