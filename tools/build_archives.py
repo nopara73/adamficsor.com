@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / "content" / "archive.json").read_text(encoding="utf-8"))
 WORK = json.loads((ROOT / "content" / "work.json").read_text(encoding="utf-8"))
 NAV = [("index.html", "Main"), ("work.html", "Work"), ("podcast.html", "Podcast"),
-       ("talks.html", "Talks"), ("interviews.html", "Interviews"), ("writing.html", "Writing")]
+       ("talks.html", "Public speaking"), ("interviews.html", "Interviews"), ("writing.html", "Writing")]
 
 
 def link(url, label):
@@ -118,7 +118,7 @@ def interview(item):
 
 
 talk_body = '''    <section aria-labelledby="talks">
-      <h2 id="talks">Talks, panels, and demonstrations</h2>
+      <h2 id="talks">Public speaking</h2>
     </section>
 ''' + grouped(DATA['talks'], talk)
 
@@ -204,11 +204,11 @@ for section in WORK['sections']:
         body += '<p class="section-content">' + escape(after.get('prefix', '')) + link(after['url'], after['label']) + escape(after.get('suffix', '')) + '</p>'
     work_sections.append(f'<section aria-labelledby="{section["id"]}"><h2 id="{section["id"]}">{escape(section["title"])}</h2>{body}</section>')
 work_body = '\n'.join(work_sections)
-work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">My first video</h2>' + entries(early_rows) + '</section>'
+work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
 
 pages = {
     'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
-    'talks.html': ('Talks', 'Public talks, panels, and demonstrations by Ádám Ficsór, with recordings and slides.', talk_body),
+    'talks.html': ('Public speaking', 'Public speaking by Ádám Ficsór: presentations, panels, and demonstrations, with recordings and slides.', talk_body),
     'interviews.html': ('Interviews', 'Guest interviews with Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
     'podcast.html': ('Podcasts and conversations', 'Podcasts and conversations with Ádám Ficsór: Immortal Combat, Pursuit of Value, Bitcoin privacy conversations, and Block Digest.', podcast_body),
     'writing.html': ('Writing', 'Writing by Ádám Ficsór on Bitcoin privacy, longevity, games, and his past software work.', writing_body),
