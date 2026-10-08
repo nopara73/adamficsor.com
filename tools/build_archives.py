@@ -73,7 +73,8 @@ def grouped(items, render):
 
 
 def talk(item):
-    title = escape(item['title'])
+    display_title = item.get('display_title', item['title'])
+    title = link(item['recording'], display_title) if item.get('recording') else escape(display_title)
     label = human_date(item['date'])
     if item['date_basis'].startswith('Upload'):
         label = 'Published ' + label
@@ -82,12 +83,12 @@ def talk(item):
     elif item['date_basis'] == 'Event range':
         label = item['date_label']
     note = item.get('display_note', '')
+    if item.get('event'):
+        label = item['event'] + ' · ' + label
     details = f'<span class="record-meta">{escape(label)}</span>'
     if note:
         details += '<br>' + escape(note)
     links = []
-    if item.get('recording'):
-        links.append(link(item['recording'], 'Excerpt' if item.get('excerpt') else 'Recording'))
     if item.get('slides'):
         links.append(link(item['slides'], 'Slides'))
     for source in item.get('evidence', []):
@@ -99,29 +100,31 @@ def interview(item):
     label = human_date(item['date'])
     if item['date_basis'].startswith('Video publication'):
         label = 'Published ' + label
+    elif item['date_basis'] == 'Original interview article':
+        label = 'Published ' + label
     elif item['date_basis'].startswith('Live broadcast'):
         label = 'Broadcast ' + label
     else:
         label = 'Released ' + label
-    text = f'<span class="record-meta">{escape(item["publisher"])} · {escape(label)}</span>'
+    publisher = item.get('display_publisher', item['publisher'])
+    text = f'<span class="record-meta">{escape(publisher)} · {escape(label)}</span>'
     if item.get('display_note'):
         text += '<br>' + escape(item['display_note'])
     links = []
     if item.get('source') and item['source'] != item['url']:
-        label = 'Excerpt' if item['source'].startswith('https://www.youtube.com/') else 'Episode source'
+        label = item.get('source_label', 'Excerpt' if item['source'].startswith('https://www.youtube.com/') else 'Episode page')
         links.append(link(item['source'], label))
-    return entry(link(item['url'], item['title']), text, ' · '.join(links))
+    return entry(link(item['url'], item.get('display_title', item['title'])), text, ' · '.join(links))
 
 
 talk_body = '''    <section aria-labelledby="talks">
       <h2 id="talks">Talks, panels, and demonstrations</h2>
-      <p class="section-content">Recordings and material from my public presentations. Dates identify the event where known; otherwise they identify the recording’s publication.</p>
     </section>
 ''' + grouped(DATA['talks'], talk)
 
 interview_body = '''    <section aria-labelledby="interviews">
       <h2 id="interviews">Interviews</h2>
-      <p class="section-content">Conversations where I was the guest. For <a href="podcast.html">podcasts and conversations I host</a>, see the podcast archive.</p>
+      <p class="section-content">Conversations where I’m the guest. See also the <a href="podcast.html">podcasts I host</a>.</p>
     </section>
 ''' + grouped(DATA['guest_interviews'], interview)
 
@@ -130,16 +133,19 @@ for item in DATA['selected_hosted_episodes']:
     episodes.append(entry(link(item['url'], item['guest']),
                           f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item.get("description", item["title"]))}'))
 podcast_body = '''    <section aria-labelledby="podcast">
-      <h2 id="podcast">Podcasts and conversations</h2>
+      <h2 id="podcast">Immortal Combat</h2>
       <div class="section-content">
-        <p>I host Immortal Combat, a podcast about longevity. Since 2024, I’ve been talking with researchers, physicians, founders, and people working to extend healthy life.</p>
-        <p>Start with my conversation with <a href="https://www.youtube.com/watch?v=GUQ9sumtkJk">Annie Nosh</a>. Other conversations include <a href="https://www.youtube.com/watch?v=IcFuB0bxRsI">Matt Kaeberlein</a> and <a href="https://www.youtube.com/watch?v=b3D1k1-w9K4">Dave Pascoe</a>.</p>
-        <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185sO4i7eR3oUO_lMmlJ2K1cL">Browse the official episode playlist</a> or <a href="https://www.youtube.com/@nopara73">visit my YouTube channel</a>.</p>
+        <p>I’ve hosted this podcast about longevity since 2024.</p>
+        <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185sO4i7eR3oUO_lMmlJ2K1cL">All episodes</a> · <a href="https://www.youtube.com/@nopara73">My YouTube channel</a></p>
       </div>
     </section>
     <section aria-labelledby="episodes">
-      <h2 id="episodes">Selected longevity conversations</h2>
-''' + entries(episodes) + '\n    </section>'
+      <h2 id="episodes">Three conversations to start with</h2>
+''' + entries(episodes[:3]) + '''
+    </section>
+    <section aria-labelledby="more-episodes">
+      <h2 id="more-episodes">More episodes</h2>
+''' + entries(episodes[3:]) + '\n    </section>'
 
 value_rows = [entry(link(item['url'], item['guest']),
                     f'<span class="record-meta">Published {human_date(item["date"])}</span>' +
@@ -149,19 +155,18 @@ podcast_body += '''
     <section aria-labelledby="pursuit-of-value">
       <h2 id="pursuit-of-value">Pursuit of Value with Derek Mazzone</h2>
       <div class="section-content">
-        <p>My 2023 conversation series with Derek Mazzone, author of <i>The Pursuit of Value: A Philosophy of Loss and Equanimity</i>. We discuss method, value, religion, ethics, meaning, and mind.</p>
-        <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185uz_WBVDXMyZBCGbe8BUgdJ">Full series playlist</a></p>
+        <p>In 2023, I recorded eight conversations with Derek Mazzone about his book <i>The Pursuit of Value: A Philosophy of Loss and Equanimity</i>.</p>
+        <p><a href="https://www.youtube.com/playlist?list=PL4nqc85w185uz_WBVDXMyZBCGbe8BUgdJ">Full series</a></p>
       </div>
 ''' + entries(value_rows) + '\n    </section>'
 
-other_rows = [entry(link(item['url'], item['guest']),
+other_rows = [entry(link(item['url'], item.get('display_guest', item['guest'])),
                     f'<span class="record-meta">Published {human_date(item["date"])}</span><br>{escape(item["description"])}')
               for item in DATA['other_conversations']]
-podcast_body += '<section aria-labelledby="other-conversations"><h2 id="other-conversations">Other conversations</h2>' + entries(other_rows) + '</section>'
 block_rows = [entry(link(item['url'], item['guest']), escape(item['description']),
-                    link(item['example_recording'], 'Example episode'))
+                    link(item['example_recording'], 'Example episode (2019)'), item.get('id', ''))
               for item in DATA['cohosted_podcasts']]
-podcast_body += '<section aria-labelledby="block-digest"><h2 id="block-digest">Block Digest</h2>' + entries(block_rows) + '</section>'
+podcast_body += '<section aria-labelledby="other-conversations"><h2 id="other-conversations">Other podcasts and conversations</h2>' + entries(other_rows + block_rows) + '</section>'
 
 early_rows = [entry(link(item['url'], item['title']),
                    f'<span class="record-meta">Published {human_date(item["date"])} · {escape(item["language"])}</span><br>' +
@@ -179,11 +184,11 @@ def writing(item):
 
 writing_body = '''    <section aria-labelledby="writing">
       <h2 id="writing">Writing</h2>
-      <p class="section-content">Selected essays, proposals, and technical explanations. More articles are on <a href="https://nopara73.medium.com/">Medium</a>.</p>
+      <p class="section-content">More of my writing is on <a href="https://nopara73.medium.com/">Medium</a>.</p>
     </section>
 '''
-for category, title in [('longevity', 'Longevity and games'), ('bitcoin', 'Bitcoin privacy and Wasabi'),
-                        ('value', 'Value and philosophy'), ('software', 'Software and development')]:
+for category, title in [('longevity', 'Longevity'), ('bitcoin', 'Bitcoin privacy'),
+                        ('value', 'Value'), ('software', 'Software')]:
     rows = [writing(item) for item in DATA['writings'] if item['category'] == category]
     writing_body += f'<section aria-labelledby="{category}"><h2 id="{category}">{title}</h2>' + entries(rows) + '</section>\n'
 
@@ -193,13 +198,13 @@ for section in WORK['sections']:
                   escape(item['description']),
                   ' · '.join(link(source['url'], source['label']) for source in item.get('links', [])),
                   item.get('id', '')) for item in section['entries']]
-    body = entries(rows)
+    body = ('<p class="section-content">' + escape(section['description']) + '</p>' if section.get('description') else '') + entries(rows)
     if section.get('after'):
         after = section['after']
         body += '<p class="section-content">' + escape(after.get('prefix', '')) + link(after['url'], after['label']) + escape(after.get('suffix', '')) + '</p>'
     work_sections.append(f'<section aria-labelledby="{section["id"]}"><h2 id="{section["id"]}">{escape(section["title"])}</h2>{body}</section>')
 work_body = '\n'.join(work_sections)
-work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">Earlier videos</h2>' + entries(early_rows) + '</section>'
+work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">My first video</h2>' + entries(early_rows) + '</section>'
 
 pages = {
     'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
