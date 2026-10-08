@@ -197,6 +197,32 @@
   ],
   "guest_interviews": [
     {
+      "research_id": "virtual-summit-2017",
+      "date": "2017-05-27",
+      "date_basis": "Video publication, UTC",
+      "title": "Adam from HiddenWallet: Why anonymity is important and how to avoid elaborate scams",
+      "display_title": "HiddenWallet, Bitcoin privacy, and scams",
+      "publisher": "Cryptocurrency Virtual Summit",
+      "url": "https://www.youtube.com/watch?v=eW_vgLeWBQs",
+      "source": "https://www.youtube.com/watch?v=eW_vgLeWBQs",
+      "display_note": "",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": "Brian (surname not verified)",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The publisher says Brian sits down with Adam, identifies him as /u/nopara73, and describes the discussion as an interview.",
+        "urls": [
+          "https://www.youtube.com/watch?v=eW_vgLeWBQs"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher video publication, converted to UTC",
+      "research_notes": "Publisher timestamp is 26 May in Pacific time and 27 May in UTC. This predates the Wasabi branding."
+    },
+    {
       "date": "2018-09-27",
       "date_basis": "Original publisher episode",
       "title": "SLP24 - Wasabi Bitcoin Wallet & Bitcoin Privacy, with Adam Ficsor (nopara73)",
@@ -218,6 +244,34 @@
       "display_title": "Wasabi Wallet 1.0 Release"
     },
     {
+      "research_id": "konsensus-32",
+      "date": "2018-11-19",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Konsensus Network #32 — Privacy Through Wallets",
+      "display_title": "Privacy through wallets",
+      "publisher": "Konsensus Network",
+      "url": "https://www.youtube.com/watch?v=T4QaW6_CNZA",
+      "source": "https://www.youtube.com/watch?v=T4QaW6_CNZA",
+      "display_note": "With Bálint Harmat.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": null,
+      "co_guests": [
+        "Bálint Harmat"
+      ],
+      "evidence": {
+        "summary": "The publisher guest description names Adam “nopara73” Ficsor and Bálint Harmat alongside Rafael Eronen and Niko Laamanen.",
+        "urls": [
+          "https://www.youtube.com/watch?v=T4QaW6_CNZA"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher live broadcast, UTC",
+      "research_notes": "Included as a guest conversation with more than one guest. The description supplies participant names but does not unambiguously assign each interviewer role."
+    },
+    {
       "date": "2019-01-13",
       "date_basis": "Video publication, UTC",
       "title": "\"The Privacy Rabbit Hole\": Nopara73, aka Ádám Ficsor Talks Bitcoin's 10-Year Anniversary",
@@ -226,6 +280,62 @@
       "source": "https://www.youtube.com/watch?v=BiyACpEe9os",
       "display_note": "",
       "display_title": "The Privacy Rabbit Hole"
+    },
+    {
+      "research_id": "wcn-large-amounts",
+      "date": "2019-01-16",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Mixing Large Amounts with Wasabi Wallet with Nopara & Lucas",
+      "display_title": "Mixing large amounts with Wasabi Wallet",
+      "publisher": "World Crypto Network",
+      "url": "https://www.youtube.com/watch?v=3Ezru07J674",
+      "source": "https://www.youtube.com/watch?v=3Ezru07J674",
+      "display_note": "With Lucas Ontivero.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": "Max Hillebrand",
+      "co_guests": [
+        "Lucas Ontivero"
+      ],
+      "evidence": {
+        "summary": "The publisher names Nopara and Lucas as the guests of Max Hillebrand’s discussion about mixing larger amounts with Wasabi.",
+        "urls": [
+          "https://www.youtube.com/watch?v=3Ezru07J674"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher live broadcast, UTC",
+      "research_notes": "Live video 16 January; audio feed released 18 January 2019. Counted once across the two formats."
+    },
+    {
+      "research_id": "rabbit-hole-recap-2019",
+      "date": "2019-03-14",
+      "date_basis": "Original publisher episode",
+      "title": "Rabbit Hole Recap: Week of 2019.03.11",
+      "display_title": "Wasabi Wallet and Bitcoin privacy",
+      "publisher": "TFTC / Rabbit Hole Recap",
+      "url": "https://www.youtube.com/watch?v=1isCzsQYUhw",
+      "source": "https://fountain.fm/episode/rX2nHJNfW0NfdH8vojKY",
+      "display_note": "Video published 30 July 2019.",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": "Marty Bent and Matt Odell",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The original publisher feed says Marty and Matt are joined by Adam Ficsor to discuss his wallet and Bitcoin privacy.",
+        "urls": [
+          "https://feeds.fountain.fm/ZwwaDULvAj0yZvJ5kdB9",
+          "https://www.youtube.com/watch?v=1isCzsQYUhw"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Original publisher RSS release",
+      "research_notes": "Original episode released 14 March 2019; video uploaded 30 July 2019. Historical episode is in the TFTC feed; the current separate Rabbit Hole Recap feed does not include it.",
+      "source_label": "Episode page"
     },
     {
       "date": "2019-04-10",
@@ -313,6 +423,35 @@
       "source_label": "Podcast feed"
     },
     {
+      "research_id": "block-digest-wabisabi",
+      "date": "2020-06-28",
+      "date_basis": "Live broadcast, UTC",
+      "title": "Block Digest Special — WabiSabi: Nopara, Nothingmuch, Seres István András",
+      "display_title": "WabiSabi",
+      "publisher": "Block Digest",
+      "url": "https://www.youtube.com/watch?v=U6WdW0Zbo9U",
+      "source": "https://www.youtube.com/watch?v=U6WdW0Zbo9U",
+      "display_note": "With Yuval Kogman and István András Seres. The description gives 26 June; the live broadcast began on 28 June UTC.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": "Block Digest hosts (Shinobius, Janine and Chris Ellis credited)",
+      "co_guests": [
+        "Yuval Kogman / Nothingmuch",
+        "István András Seres"
+      ],
+      "evidence": {
+        "summary": "The publisher identifies Nopara, Nothingmuch and Seres István András in the guest section, separate from the show’s hosts.",
+        "urls": [
+          "https://www.youtube.com/watch?v=U6WdW0Zbo9U"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "YouTube actual live start, UTC; description contains conflicting date",
+      "research_notes": "Actual live start is 28 June 2020 00:30 UTC; Pacific date is 27 June. The description says Friday 26 June, a conflict retained here. This guest special is distinct from regular Block Digest hosting."
+    },
+    {
       "date": "2020-10-24",
       "date_basis": "Live broadcast, UTC",
       "title": "Wasabi Wallet’s Adam “nopara73” Ficsor on Reckless VR",
@@ -354,14 +493,46 @@
       "display_title": "The History of Wasabi Wallet"
     },
     {
-      "date": "2021-06-16",
-      "date_basis": "Live broadcast, UTC",
+      "research_id": "citadel-dispatch-15",
+      "date": "2021-03-30",
+      "date_basis": "Original publisher episode",
+      "title": "CD15: bitcoin privacy and coinjoin with @nopara73 and @openoms",
+      "display_title": "Bitcoin privacy and CoinJoin",
+      "publisher": "Citadel Dispatch",
+      "url": "https://www.youtube.com/watch?v=JY4qVZN_FUw",
+      "source": "https://podcasters.spotify.com/pod/show/citadeldispatch/episodes/CD15-bitcoin-privacy-and-coinjoin-with-nopara73-and-openoms-ettkq3",
+      "display_note": "With Openoms. Video uploaded 27 June 2022.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": "ODELL / Matt Odell",
+      "co_guests": [
+        "Openoms"
+      ],
+      "evidence": {
+        "summary": "The publisher RSS identifies nopara73 and openoms as guests discussing Bitcoin privacy and CoinJoin.",
+        "urls": [
+          "https://serve.podhome.fm/rss/c90e609a-df1e-596a-bd5e-57bcc8aad6cc",
+          "https://www.youtube.com/watch?v=JY4qVZN_FUw"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Original publisher RSS release",
+      "research_notes": "Original release 30 March 2021. The available YouTube upload is dated 27 June 2022 and should not replace the original episode date.",
+      "source_label": "Episode page"
+    },
+    {
+      "date": "2021-06-08",
+      "date_basis": "First publisher instalment",
       "title": "Adam Ficsor of Wasabi Wallet Talks Bitcoin Privacy - Full Interview - To The Moon Ep. 14",
       "publisher": "Bitrefill",
       "url": "https://www.youtube.com/watch?v=oreMQZgzVZw",
-      "source": "https://www.youtube.com/watch?v=oreMQZgzVZw",
-      "display_note": "",
-      "display_title": "Bitcoin Privacy — To the Moon #14"
+      "source": "https://www.youtube.com/watch?v=svn2uBamBXY",
+      "display_note": "Full interview published 16 June 2021.",
+      "display_title": "Bitcoin Privacy — To the Moon #14",
+      "date_label": "First instalment 8 June 2021",
+      "source_label": "First instalment"
     },
     {
       "date": "2021-07-10",
@@ -376,6 +547,37 @@
       "source_label": "Host’s announcement"
     },
     {
+      "research_id": "bitcoin-rehab-privacy-wars",
+      "date": "2021-08-04",
+      "date_basis": "Original publisher episode",
+      "title": "The Privacy Wars - Fighting the Disinformation War against Wasabi",
+      "display_title": "The privacy wars",
+      "publisher": "Bitcoin Rehab",
+      "url": "https://podcasters.spotify.com/pod/show/bitcoinrehab/episodes/The-Privacy-Wars---Fighting-the-Disinformation-War-against-Wasabi-e15ekgs",
+      "source": "https://podcasters.spotify.com/pod/show/bitcoinrehab/episodes/The-Privacy-Wars---Fighting-the-Disinformation-War-against-Wasabi-e15ekgs",
+      "display_note": "Twitter Spaces with Giacomo Zucco, Shinobi and BTCparadigm.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": "Karo Zagorus",
+      "co_guests": [
+        "Giacomo Zucco",
+        "Shinobi",
+        "BTCparadigm"
+      ],
+      "evidence": {
+        "summary": "The original host feed explicitly says founder Adam Ficsor came on its live Twitter Spaces episode with the other named guests.",
+        "urls": [
+          "https://anchor.fm/s/e773900/podcast/rss",
+          "https://podcasters.spotify.com/pod/show/bitcoinrehab/episodes/The-Privacy-Wars---Fighting-the-Disinformation-War-against-Wasabi-e15ekgs"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher RSS release; exact live session day not established",
+      "research_notes": "English group episode, distinct from the July 2021 Hungarian BitcoinBázis / Bitcoin Rehab interview. The podcast publication date is known; the live recording date is not."
+    },
+    {
       "date": "2021-12-06",
       "date_basis": "Live broadcast, UTC",
       "title": "Adam Ficsor, Creator of Wasabi Wallet",
@@ -386,6 +588,34 @@
       "display_title": "Creator of Wasabi Wallet"
     },
     {
+      "research_id": "bitrefill-to-moon-31",
+      "date": "2022-01-05",
+      "date_basis": "Video publication, UTC",
+      "title": "Adam Ficsor & Yuval Kogman Discuss Wasabi Wallet 2.0 — To The Moon Ep. 31 (full interview)",
+      "display_title": "Wasabi Wallet 2.0 — To the Moon #31",
+      "publisher": "Bitrefill",
+      "url": "https://www.youtube.com/watch?v=Kn7bgiMOw5Q",
+      "source": "https://www.youtube.com/watch?v=Kn7bgiMOw5Q",
+      "display_note": "With Yuval Kogman. Full interview.",
+      "category": "guest_conversation",
+      "language": "en",
+      "interviewer": null,
+      "co_guests": [
+        "Yuval Kogman"
+      ],
+      "evidence": {
+        "summary": "Bitrefill calls the recording a full interview with Adam Ficsor and Yuval Kogman about Wasabi Wallet 2.0.",
+        "urls": [
+          "https://www.youtube.com/watch?v=Kn7bgiMOw5Q"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher video publication, converted to UTC",
+      "research_notes": "Date is the full publisher upload. A syndicated first-part listing points to 16 December 2021; that earlier instalment was not independently verified at its primary URL, so it is not used as the catalogue date. The show description lists Lawrence Ray, Jerry Okai and Ricardo Martinez as hosts."
+    },
+    {
       "date": "2022-03-07",
       "date_basis": "Video publication, UTC",
       "title": "Join The Wasabikas S02E01 - All about Wasabi Wallet 2.0 with Adam Ficsor",
@@ -394,6 +624,35 @@
       "source": "https://www.youtube.com/watch?v=CCOHMISELNs",
       "display_note": "",
       "display_title": "All About Wasabi Wallet 2.0"
+    },
+    {
+      "research_id": "wasabi-founders-2022",
+      "date": "2022-05-17",
+      "date_basis": "Video publication, UTC",
+      "title": "Wasabi Wallet | Interview with the Founders",
+      "display_title": "Interview with the Wasabi Wallet founders",
+      "publisher": "Wasabi Wallet",
+      "url": "https://www.youtube.com/watch?v=d8q_fiYSfxg",
+      "source": "https://www.youtube.com/watch?v=d8q_fiYSfxg",
+      "display_note": "With Gergely Hajdu and Bálint Harmat.",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": null,
+      "co_guests": [
+        "Bálint Harmat",
+        "Gergely Hajdu"
+      ],
+      "evidence": {
+        "summary": "The official English transcript directly addresses Nopara and asks him questions about the wallet’s origin, development and company; he answers at 0:54 onward.",
+        "urls": [
+          "https://www.youtube.com/watch?v=d8q_fiYSfxg"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher video publication, converted to UTC",
+      "research_notes": "Official English transcript read and verified through the supported browser export. Interviewer’s personal name not established. One edited group interview, not separate entries for each founder."
     },
     {
       "date": "2022-08-26",
@@ -441,6 +700,66 @@
       "display_title": "The Fight for Anonymous Digital Cash"
     },
     {
+      "research_id": "huszonegy-e09",
+      "date": "2024-04-19",
+      "date_basis": "Original publisher episode",
+      "title": "Mi az a Bitcoin? | E09 | Wasabi bitcoin tárca, magánszféra, magyar találmány",
+      "display_title": "Wasabi bitcointárca",
+      "publisher": "HUSZONEGY",
+      "url": "https://www.youtube.com/watch?v=KW3LpoP_8UM",
+      "source": "https://huszonegy.world/podcast/wasabi-bitcoin-tarca/",
+      "display_note": "In Hungarian.",
+      "category": "spoken_interview",
+      "language": "hu",
+      "interviewer": "Optout and Árpi",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The publisher introduces nopara73 as the father of Wasabi Wallet and lists him with the show participants for this episode.",
+        "urls": [
+          "https://anchor.fm/s/f260df54/podcast/rss",
+          "https://www.youtube.com/watch?v=KW3LpoP_8UM",
+          "https://huszonegy.world/podcast/wasabi-bitcoin-tarca/"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher RSS release and YouTube publication",
+      "research_notes": "",
+      "source_label": "Episode page"
+    },
+    {
+      "research_id": "huszonegy-e23",
+      "date": "2024-07-26",
+      "date_basis": "Original publisher episode",
+      "title": "Mi az a Bitcoin? | E23 | Bitcoin Miskolc, politika és magánszféra",
+      "display_title": "Bitcoin Miskolc, politika és magánszféra",
+      "publisher": "HUSZONEGY",
+      "url": "https://www.youtube.com/watch?v=79S1FL-QOPA",
+      "source": "https://huszonegy.world/podcast/bitcoin-miskolc-politika-es-maganszfera/",
+      "display_note": "In Hungarian. With Kovács Ferenc. Video published 27 July 2024.",
+      "category": "guest_conversation",
+      "language": "hu",
+      "interviewer": "Anti",
+      "co_guests": [
+        "Kovács Ferenc"
+      ],
+      "evidence": {
+        "summary": "The publisher says it talked with Kovács Ferenc and Nopara, including Nopara’s account of Bitcoin adoption in El Salvador.",
+        "urls": [
+          "https://anchor.fm/s/f260df54/podcast/rss",
+          "https://www.youtube.com/watch?v=79S1FL-QOPA",
+          "https://huszonegy.world/podcast/bitcoin-miskolc-politika-es-maganszfera/"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Original publisher RSS release",
+      "research_notes": "Audio released 26 July 2024; video uploaded 27 July. Counted once.",
+      "source_label": "Episode page"
+    },
+    {
       "date": "2024-08-24",
       "date_basis": "Original publisher RSS release date",
       "title": "The Bitcoin Cash Podcast #124 — Properties of Bitcoin & BTC in El Salvador feat. NoPara",
@@ -467,9 +786,10 @@
       "publisher": "nopara73",
       "url": "https://www.youtube.com/watch?v=3aPTZFlK1JQ",
       "source": "https://www.youtube.com/watch?v=3aPTZFlK1JQ",
-      "display_note": "",
+      "display_note": "Original publication date unknown.",
       "display_title": "Longevity as a Sport",
-      "display_publisher": "LongevityDxTx"
+      "display_publisher": "LongevityDxTx",
+      "date_label": "Reposted 5 August 2025"
     },
     {
       "date": "2026-04-28",
@@ -480,6 +800,91 @@
       "source": "https://www.youtube.com/watch?v=4LSSEAfCBsg",
       "display_note": "",
       "display_title": "Turning Aging Into a Competitive Sport"
+    },
+    {
+      "research_id": "business-insider-limit",
+      "date": "2026-07-02",
+      "date_basis": "Video publication, UTC",
+      "title": "Why Living Past 115 Is Almost Impossible | Pushing Limits",
+      "display_title": "Why living past 115 is almost impossible",
+      "publisher": "Business Insider",
+      "url": "https://www.youtube.com/watch?v=WKi9FHrGAjA",
+      "source": "https://www.businessinsider.com/3-top-longevity-competitors-lowered-biological-age-by-62-years-2026-7",
+      "display_note": "A video feature from Business Insider’s Pushing Limits series.",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": "Daniel T. Allen",
+      "co_guests": [],
+      "evidence": {
+        "summary": "Business Insider’s subsequent article explicitly says Ficsor told BI about longevity for an episode of its video series; the original video and his self-posted excerpt identify the same session.",
+        "urls": [
+          "https://www.youtube.com/watch?v=WKi9FHrGAjA",
+          "https://www.businessinsider.com/3-top-longevity-competitors-lowered-biological-age-by-62-years-2026-7",
+          "https://www.youtube.com/watch?v=w-7yy3BNxAE"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher video publication, converted to UTC",
+      "research_notes": "Video publication is 2 July 2026. The article was published 7 August, the self-excerpt 24 July, and German adaptation 10 August. The series appears under both The Limit and Pushing Limits branding. Grouped as one interview contribution/session, with related publications as alternates.",
+      "source_label": "Article"
+    },
+    {
+      "research_id": "quality-insights-2026",
+      "date": "2026-10-02",
+      "date_basis": "Original publisher episode",
+      "title": "Gamifying Aging: How Adam Ficsor Transforms Longevity Into Competition",
+      "display_title": "Gamifying aging",
+      "publisher": "Quality Insights — Taking Healthcare by Storm",
+      "url": "https://www.youtube.com/watch?v=H87GUPWswWI",
+      "source": "https://qualityinsights.buzzsprout.com/1758119/episodes/19896052-gamifying-aging-how-adam-ficsor-transforms-longevity-into-competition",
+      "display_note": "",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": "Dr. Jean Storm",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The publisher describes Dr. Jean Storm talking with Adam Ficsor about Longevity World Cup and competitive longevity.",
+        "urls": [
+          "https://feeds.buzzsprout.com/1758119.rss",
+          "https://www.youtube.com/watch?v=H87GUPWswWI",
+          "https://qualityinsights.buzzsprout.com/1758119/episodes/19896052-gamifying-aging-how-adam-ficsor-transforms-longevity-into-competition"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Original publisher RSS timestamp and official video",
+      "research_notes": "",
+      "source_label": "Episode page"
+    },
+    {
+      "research_id": "bitcoin-uncensored",
+      "date": null,
+      "date_basis": "Unknown original publication date",
+      "title": "Bitcoin Fungibility and the Wasabi Wallet with NoPara73!",
+      "display_title": "Bitcoin fungibility and Wasabi Wallet",
+      "publisher": "Bitcoin Uncensored",
+      "url": "https://www.lopp.net/media-archive/uncensored/Bitcoin%20Fungibility%20and%20the%20Wasabi%20Wallet%20with%20NoPara73%21.mp4",
+      "source": null,
+      "display_note": "Preserved recording.",
+      "category": "spoken_interview",
+      "language": "en",
+      "interviewer": "Chris DeRose",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The preserved episode is labelled as a conversation with NoPara73; a sampled recording frame shows the host speaking with a remote participant labelled Adam.",
+        "urls": [
+          "https://www.lopp.net/media-archive/uncensored/",
+          "https://www.lopp.net/media-archive/uncensored/Bitcoin%20Fungibility%20and%20the%20Wasabi%20Wallet%20with%20NoPara73%21.mp4"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "unknown",
+      "research_date_basis": "Original publication date not established",
+      "research_notes": "Lopp hosts a preserved full recording. File metadata has a creation timestamp of 11 July 2018, which is not proof of release or recording day. Exact publication date remains unknown. Original publisher URL not recovered."
     }
   ],
   "selected_hosted_episodes": [
@@ -964,6 +1369,302 @@
       "role": "Creator",
       "duration_seconds": 121,
       "inspected": "The user identified this as their first YouTube video. It is the oldest entry in the complete public uploads catalog. Checked the original player metadata, expanded description, publication date, and video page. The description reports a ten-day experiment; no weight-loss outcome is presented as a verified measurement."
+    }
+  ],
+  "reported_interviews": [
+    {
+      "research_id": "bmag-wasabi-release-2018",
+      "date": "2018-10-31",
+      "date_basis": "Article publication",
+      "title": "Wasabi Wallet 1.0 Is Here to Make Bitcoin Transactions More Private",
+      "display_title": "Wasabi Wallet 1.0 Is Here to Make Bitcoin Transactions More Private",
+      "publisher": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/culture/wasabi-wallet-10-here-make-bitcoin-transactions-more-private",
+      "source": "https://bitcoinmagazine.com/culture/wasabi-wallet-10-here-make-bitcoin-transactions-more-private",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Aaron van Wirdum and Colin Harper",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The article attributes comments to Ficsór as having told Bitcoin Magazine and describes its conversation with him.",
+        "urls": [
+          "https://bitcoinmagazine.com/culture/wasabi-wallet-10-here-make-bitcoin-transactions-more-private"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "bmag-tech-trends-2018",
+      "date": "2018-12-19",
+      "date_basis": "Article publication",
+      "title": "Bitcoin’s Tech Trends of 2018: What This Year Brought Us (Part 2)",
+      "display_title": "Bitcoin’s Tech Trends of 2018: What This Year Brought Us (Part 2)",
+      "publisher": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/technical/bitcoins-tech-trends-2018-what-year-brought-us-part-2",
+      "source": "https://bitcoinmagazine.com/technical/bitcoins-tech-trends-2018-what-year-brought-us-part-2",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Aaron van Wirdum",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The year-end article explicitly attributes Ficsór’s comment about CoinJoin liquidity to a conversation with Bitcoin Magazine.",
+        "urls": [
+          "https://bitcoinmagazine.com/technical/bitcoins-tech-trends-2018-what-year-brought-us-part-2"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session. Publisher timestamp is 19 December in its stated US timezone, 20 December UTC; the publisher day is retained."
+    },
+    {
+      "research_id": "coindesk-shakeup-2019",
+      "date": "2019-09-06",
+      "date_basis": "Article publication",
+      "title": "Leadership Shakeup at Wasabi Wallet as Bitcoin Business Surges",
+      "display_title": "Leadership Shakeup at Wasabi Wallet as Bitcoin Business Surges",
+      "publisher": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2019/09/06/leadership-shakeup-at-wasabi-wallet-as-bitcoin-business-surges",
+      "source": "https://www.coindesk.com/markets/2019/09/06/leadership-shakeup-at-wasabi-wallet-as-bitcoin-business-surges",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Leigh Cuen",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The article explicitly says Ficsor told CoinDesk about his role and Wasabi’s business.",
+        "urls": [
+          "https://www.coindesk.com/markets/2019/09/06/leadership-shakeup-at-wasabi-wallet-as-bitcoin-business-surges"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "bmag-transaction-privacy-2020",
+      "date": "2020-01-27",
+      "date_basis": "Article publication",
+      "title": "Maintaining Transaction Privacy in the Age of Government Blockchain Analysis",
+      "display_title": "Maintaining Transaction Privacy in the Age of Government Blockchain Analysis",
+      "publisher": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/culture/maintaining-transaction-privacy-in-the-age-of-government-blockchain-analysis",
+      "source": "https://bitcoinmagazine.com/culture/maintaining-transaction-privacy-in-the-age-of-government-blockchain-analysis",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Vlad Costea",
+      "co_guests": [],
+      "evidence": {
+        "summary": "Bitcoin Magazine explicitly says it spoke with Nopara73 and Edge CEO Paul Puey about practical transaction privacy.",
+        "urls": [
+          "https://bitcoinmagazine.com/culture/maintaining-transaction-privacy-in-the-age-of-government-blockchain-analysis"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "decrypt-satoshi-2020",
+      "date": "2020-04-03",
+      "date_basis": "Article publication",
+      "title": "Bitcoiners push for mass privacy on Satoshi’s birthday",
+      "display_title": "Bitcoiners push for mass privacy on Satoshi’s birthday",
+      "publisher": "Decrypt",
+      "url": "https://decrypt.co/24467/bitcoiners-push-for-mass-privacy-on-satoshis-birthday",
+      "source": "https://decrypt.co/24467/bitcoiners-push-for-mass-privacy-on-satoshis-birthday",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Colin Harper",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The article explicitly attributes comments to Ficsor as having told Decrypt.",
+        "urls": [
+          "https://decrypt.co/24467/bitcoiners-push-for-mass-privacy-on-satoshis-birthday"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "decrypt-coinswap-2020",
+      "date": "2020-05-31",
+      "date_basis": "Article publication",
+      "title": "An old trick could solve Bitcoin’s privacy problem",
+      "display_title": "An old trick could solve Bitcoin’s privacy problem",
+      "publisher": "Decrypt",
+      "url": "https://decrypt.co/30756/bitcoin-privacy-coinswap-chris-belcher",
+      "source": "https://decrypt.co/30756/bitcoin-privacy-coinswap-chris-belcher",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Colin Harper",
+      "co_guests": [],
+      "evidence": {
+        "summary": "Decrypt directly attributes Ficsor’s reaction to Chris Belcher’s CoinSwap proposal to comments provided to the outlet.",
+        "urls": [
+          "https://decrypt.co/30756/bitcoin-privacy-coinswap-chris-belcher"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "decrypt-segwit-2020",
+      "date": "2020-06-05",
+      "date_basis": "Article publication",
+      "title": "Bitcoin Segwit bug fix could lock wallet users out of their funds",
+      "display_title": "Bitcoin Segwit bug fix could lock wallet users out of their funds",
+      "publisher": "Decrypt",
+      "url": "https://decrypt.co/31463/bitcoin-segwit-bug-fix-could-lock-wallet-users-out-funds",
+      "source": "https://decrypt.co/31463/bitcoin-segwit-bug-fix-could-lock-wallet-users-out-funds",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Colin Harper",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The story explicitly says Ficsor provided comments to Decrypt over email, beyond its references to public tweets.",
+        "urls": [
+          "https://decrypt.co/31463/bitcoin-segwit-bug-fix-could-lock-wallet-users-out-funds"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session."
+    },
+    {
+      "research_id": "coindesk-wasabi-2-2020",
+      "date": "2020-11-05",
+      "date_basis": "Article publication",
+      "title": "Wasabi Wallet 2.0 Will Offer Automatic CoinJoins by Default to Boost Privacy",
+      "display_title": "Wasabi Wallet 2.0 Will Offer Automatic CoinJoins by Default to Boost Privacy",
+      "publisher": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2020/11/05/wasabi-wallet-20-will-offer-automatic-coinjoins-by-default-to-boost-privacy",
+      "source": "https://www.coindesk.com/tech/2020/11/05/wasabi-wallet-20-will-offer-automatic-coinjoins-by-default-to-boost-privacy",
+      "display_note": "",
+      "category": "reported_contribution",
+      "language": "en",
+      "interviewer": "Benjamin Powers",
+      "co_guests": [],
+      "evidence": {
+        "summary": "CoinDesk identifies Ficsor’s response as an email provided to the outlet.",
+        "urls": [
+          "https://www.coindesk.com/tech/2020/11/05/wasabi-wallet-20-will-offer-automatic-coinjoins-by-default-to-boost-privacy"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher original publication metadata",
+      "research_notes": "Article contribution, not a standalone full Q&A. Publication date does not establish the contact date or prove a unique interview session. Date uses the 5 November UTC publication timestamp; a local US display may show the previous evening.",
+      "date_label": "Published 5 November 2020 UTC"
+    }
+  ],
+  "written_interviews": [
+    {
+      "research_id": "forklog-2018",
+      "date": "2018-12-18",
+      "date_basis": "Article publication",
+      "title": "ForkLog Exclusive: Without Fungibility Mass Adoption of Bitcoin is Just a Vision – Wasabi Wallet",
+      "display_title": "Wasabi Wallet and Bitcoin fungibility",
+      "publisher": "ForkLog",
+      "url": "https://forklog.com/en/forklog-exclusive-without-fungibility-mass-adoption-of-bitcoin-is-just-a-vision-wasabi-wallet/",
+      "source": "https://forklog.com/en/forklog-exclusive-without-fungibility-mass-adoption-of-bitcoin-is-just-a-vision-wasabi-wallet/",
+      "display_note": "With Gergely Hajdu and Bálint Harmat.",
+      "category": "written_qa",
+      "language": "en",
+      "interviewer": null,
+      "co_guests": [
+        "Gergely Hajdu",
+        "Bálint Harmat"
+      ],
+      "evidence": {
+        "summary": "ForkLog says it spoke with Ficsór and the two other zkSNACKs co-founders; questions are followed by separately labelled nopara73 answers.",
+        "urls": [
+          "https://forklog.com/en/forklog-exclusive-without-fungibility-mass-adoption-of-bitcoin-is-just-a-vision-wasabi-wallet/"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Publisher article date",
+      "research_notes": "Counted as a written interview. The embedded Building on Bitcoin presentation is background material, not a recording of this Q&A. The site’s Russian navigation link leads to its home page, not a verified translation of this interview."
+    },
+    {
+      "research_id": "coincache-2019",
+      "date": "2019-01-07",
+      "date_basis": "Article publication",
+      "title": "Interview with Wasabi Wallet creator, nopara73",
+      "display_title": "Interview with Wasabi Wallet creator nopara73",
+      "publisher": "Coincache / Ricardo Martinez",
+      "url": "https://medium.com/@rickytheghost1981/interview-with-wasabi-wallet-creator-nopara73-f650bd104f87",
+      "source": null,
+      "display_note": "The original page is no longer available; this is the interviewer’s copy.",
+      "category": "written_qa",
+      "language": "en",
+      "interviewer": "Ricardo Martinez / mintycosta",
+      "co_guests": [],
+      "evidence": {
+        "summary": "The original indexed page and interviewer’s republication present a question-and-answer interview with nopara73, including first-person answers about his work.",
+        "urls": [
+          "https://coincache.net/2019/01/07/interview-with-wasabi-wallet-creator-nopara73/",
+          "https://medium.com/@rickytheghost1981/interview-with-wasabi-wallet-creator-nopara73-f650bd104f87"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "high",
+      "research_date_basis": "Dated original article and author republication",
+      "research_notes": "Historical interview verified in indexed primary-source text. The Coincache domain now serves unrelated gambling content; a successful HTTP response is not a working interview. Direct Medium access was restricted. Wayback availability checks were rate-limited; no working archive snapshot was verified."
+    },
+    {
+      "research_id": "forbes-30-30-questionnaire",
+      "date": "2020-05",
+      "date_basis": "Article publication",
+      "title": "Mi jelent akadályt annak a generációnak, aminek látszólag már minden lehetséges? A 30/30-asok válaszolnak",
+      "display_title": "Questions for Forbes Hungary’s 30/30 list",
+      "publisher": "Forbes Hungary",
+      "url": "https://www.forbes.hu/uzlet/mi-jelent-akadalyt-annak-a-generacionak-aminek-latszolag-mar-minden-lehetseges-a-30-30-asok-valaszolnak/",
+      "source": "https://www.forbes.hu/uzlet/mi-jelent-akadalyt-annak-a-generacionak-aminek-latszolag-mar-minden-lehetseges-a-30-30-asok-valaszolnak/",
+      "display_note": "In Hungarian. Answers to a shared questionnaire.",
+      "category": "written_qa",
+      "language": "hu",
+      "interviewer": "Forbes editorial team",
+      "co_guests": [],
+      "evidence": {
+        "summary": "Forbes states it used a common questionnaire for its 30/30 participants; Ficsór Ádám’s responses are attributed by name within the article.",
+        "urls": [
+          "https://www.forbes.hu/uzlet/mi-jelent-akadalyt-annak-a-generacionak-aminek-latszolag-mar-minden-lehetseges-a-30-30-asok-valaszolnak/"
+        ],
+        "confidence": "high",
+        "readback_method": "Publisher text, description, RSS, or surviving recording; see notes for restricted or indexed sources."
+      },
+      "date_confidence": "medium",
+      "research_date_basis": "May magazine / 2020 context in primary article; exact day unavailable",
+      "research_notes": "Verified named answers in primary indexed article text. Direct HTTP access returned 403. Year is established by the 2020 context; May refers to the magazine issue, and is not a verified day of web publication. Related Forbes profile may reuse the same reporting and is not counted again.",
+      "date_label": "May 2020 issue"
     }
   ]
 }

@@ -64,11 +64,17 @@ def entry(title, text, links="", element_id=""):
     return f'<div{ident}><dt>{title}</dt><dd>{text}' + (f'<br>{links}' if links else '') + '</dd></div>'
 
 
-def grouped(items, render):
+def grouped(items, render, prefix=''):
     sections = []
-    for year in sorted({item['date'][:4] for item in items}, reverse=True):
-        rows = [render(item) for item in reversed(items) if item['date'].startswith(year)]
-        sections.append(f'<section aria-labelledby="year-{year}"><h2 id="year-{year}">{year}</h2>{entries(rows)}</section>')
+    dated = [item for item in items if item.get('date')]
+    for year in sorted({item['date'][:4] for item in dated}, reverse=True):
+        rows = [render(item) for item in reversed(dated) if item['date'].startswith(year)]
+        ident = f'{prefix}year-{year}'
+        sections.append(f'<section aria-labelledby="{ident}"><h2 id="{ident}">{year}</h2>{entries(rows)}</section>')
+    undated = [render(item) for item in items if not item.get('date')]
+    if undated:
+        ident = f'{prefix}undated'
+        sections.append(f'<section aria-labelledby="{ident}"><h2 id="{ident}">Undated</h2>{entries(undated)}</section>')
     return '\n'.join(sections)
 
 
@@ -97,8 +103,12 @@ def talk(item):
 
 
 def interview(item):
-    label = human_date(item['date'])
-    if item['date_basis'].startswith('Video publication'):
+    label = human_date(item['date']) if item.get('date') else 'Publication date unknown'
+    if item.get('date_label'):
+        label = item['date_label']
+    elif not item.get('date'):
+        pass
+    elif item['date_basis'].startswith(('Video publication', 'Article publication')):
         label = 'Published ' + label
     elif item['date_basis'] == 'Original interview article':
         label = 'Published ' + label
@@ -114,7 +124,7 @@ def interview(item):
     if item.get('source') and item['source'] != item['url']:
         label = item.get('source_label', 'Excerpt' if item['source'].startswith('https://www.youtube.com/') else 'Episode page')
         links.append(link(item['source'], label))
-    return entry(link(item['url'], item.get('display_title', item['title'])), text, ' · '.join(links))
+    return entry(link(item['url'], item.get('display_title', item['title'])), text, ' · '.join(links), item.get('research_id', ''))
 
 
 talk_body = '''    <section aria-labelledby="talks">
@@ -125,8 +135,21 @@ talk_body = '''    <section aria-labelledby="talks">
 interview_body = '''    <section aria-labelledby="interviews">
       <h2 id="interviews">Interviews</h2>
       <p class="section-content">Conversations where I’m the guest. See also the <a href="podcast.html">podcasts I host</a>.</p>
+      <p class="section-content"><a href="#written-interviews">Written interviews</a> · <a href="#reported-comments">Comments in articles</a></p>
     </section>
 ''' + grouped(DATA['guest_interviews'], interview)
+
+interview_body += '''
+    <section aria-labelledby="written-interviews">
+      <h2 id="written-interviews">Written interviews</h2>
+    </section>
+''' + grouped(DATA.get('written_interviews', []), interview, 'written-')
+interview_body += '''
+    <section aria-labelledby="reported-comments">
+      <h2 id="reported-comments">Comments in articles</h2>
+      <p class="section-content">Articles that include comments I gave the publication.</p>
+    </section>
+''' + grouped(DATA.get('reported_interviews', []), interview, 'comments-')
 
 episodes = []
 for item in DATA['selected_hosted_episodes']:
@@ -209,11 +232,12 @@ work_body += '\n<section aria-labelledby="early-videos"><h2 id="early-videos">Ea
 pages = {
     'work.html': ('Work and research', 'Work and research by Ádám Ficsór: Longevity World Cup, Immortal Combat, zkSNACKs, Wasabi Wallet, ZeroLink, WabiSabi, and TumbleBit.', work_body),
     'talks.html': ('Public speaking', 'Public speaking by Ádám Ficsór: presentations, panels, and demonstrations, with recordings and slides.', talk_body),
-    'interviews.html': ('Interviews', 'Guest interviews with Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
+    'interviews.html': ('Interviews', 'Interviews, written Q&As, and reported comments from Ádám Ficsór on Bitcoin privacy and longevity.', interview_body),
     'podcast.html': ('Podcasts and conversations', 'Podcasts and conversations with Ádám Ficsór: Immortal Combat, Pursuit of Value, Bitcoin privacy conversations, and Block Digest.', podcast_body),
     'writing.html': ('Writing', 'Writing by Ádám Ficsór on Bitcoin privacy, longevity, games, and his past software work.', writing_body),
 }
 for filename, args in pages.items():
     (ROOT / 'site' / filename).write_text(page(filename, *args), encoding='utf-8', newline='\n')
-print(f'Rendered {len(pages)} archives: {len(DATA["talks"])} talks, {len(DATA["guest_interviews"])} interviews, '
+print(f'Rendered {len(pages)} archives: {len(DATA["talks"])} talks, {len(DATA["guest_interviews"])} guest interviews, '
+      f'{len(DATA.get("written_interviews", []))} written interviews, {len(DATA.get("reported_interviews", []))} reported contributions, '
       f'{len(DATA["selected_hosted_episodes"])} hosted conversations, {len(DATA["writings"])} writings.')
